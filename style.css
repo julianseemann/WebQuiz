@@ -7,7 +7,7 @@
 }
 .questionArea
 {
-  margin-top:15%;
+  margin-top:18%;
   position: relative;
 }
 .QuestionBox
@@ -19,7 +19,7 @@
 }
 .btnSize
 {
-  width: 270px;
+  width: 49.6%;
   height: 120px;
   border: black solid 2px;
   display: inline;
