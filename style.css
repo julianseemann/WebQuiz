@@ -1,0 +1,46 @@
+:root
+{
+}
+.inputArea
+{
+  margin-top: 10%;
+}
+.questionArea
+{
+  margin-top:15%;
+  position: relative;
+}
+.QuestionBox
+{
+  margin-top: 80px;
+  width: 544px;
+  height:auto;
+  margin-left: 30%;
+}
+.btnSize
+{
+  width: 270px;
+  height: 120px;
+  border: black solid 2px;
+  display: inline;
+}
+.QuestionSqaure
+{
+  width:auto;
+  height: 240px;
+  border: black solid 2px;
+  position: relative;
+  margin-bottom: 4px;
+}
+.btnCont
+{
+display:block;
+margin-bottom: 4px;
+}
+.timer
+{
+  display: block;
+  margin-bottom: 4px;
+  height:30px;
+  border: black solid 2px;
+}
