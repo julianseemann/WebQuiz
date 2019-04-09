@@ -13,9 +13,11 @@
 .QuestionBox
 {
   margin-top: 30px;
-  width: 544px;
   height:auto;
+    width:auto;
   margin-left: 30%;
+    margin-right: 30%;
+  
 }
 .btnSize
 {
