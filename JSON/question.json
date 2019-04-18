@@ -5,17 +5,19 @@
   [
     {"name":"Ist kenis ein baum ?",
       "id":0,
-      "antwort1":"füge geignete antwort ein",
-      "antwort2":"ja",
-      "antwort3":"nein er ist ein indianer",
-      "antwort4":"nein er hat zu viele Animes geschaut"
+      "1":"füge geignete antwort ein",
+      "2":"ja",
+      "3":"nein er ist ein indianer",
+      "4":"nein er hat zu viele Animes geschaut",
+      "richtig":"schreibe Antwortnummer von der richtigen Antwort hin"  
      },
     {"name":"frage2",
       "id":1,
-      "antwort1":"füge geignete antwort ein",
-      "antwort2":"kenis",
-      "antwort3":"kenis",
-      "antwort4":"kenis"
+      "1":"füge geignete antwort ein",
+      "2":"kenis",
+      "3":"kenis",
+      "4":"kenis",
+      "richtig":"schreibe Antwortnummer von der richtigen Antwort hin" 
     }
   ]
 }
