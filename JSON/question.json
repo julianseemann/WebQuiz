@@ -1,0 +1,21 @@
+{
+	"id": 0,
+	"name": "quiz",
+	"fragen":
+  [
+    {"name":"frage1",
+      "id":0,
+      "antwort1":"füge geignete antwort ein",
+      "antwort2":"kenis",
+      "antwort3":"kenis",
+      "antwort4":"kenis"
+     },
+    {"name":"frage2",
+      "id":1,
+      "antwort1":"füge geignete antwort ein",
+      "antwort2":"kenis",
+      "antwort3":"kenis",
+      "antwort4":"kenis"
+    }  
+  ]
+}
