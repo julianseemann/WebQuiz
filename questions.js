@@ -1,12 +1,12 @@
 
 $(document).ready(function()
 {
-  var frage=$('.frage')
+  var antwort=$('.antwort')
   var score=900;
   var richtig=1;
   var start = new Date().getTime();
 
-      frage.click(function()
+      antwort.click(function()
       {
         var stop = new Date().getTime();
           if(this.id==richtig)
