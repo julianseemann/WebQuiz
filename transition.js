@@ -2,6 +2,7 @@ $(document).ready(function()
 {
 var time = window.location.hash.substring(1).split('s')[0];
 var score= window.location.hash.substring(1).split('s')[1];
+var args=window.location.hash.substring(0)
 append();
 function append()
 {
@@ -20,5 +21,6 @@ else if(score!=0&&time!=15000)
 $('#Antwortszeit').append("Du hast in "+parseInt(time/100)/10+" s geantwortet.");
 $('#Punkte').append("Du hast "+parseInt(score)+" Punkte.");
 }
+$('#gotoFrage').click(function(){window.location = "questions.html"+args;})
 }
 });
