@@ -3,12 +3,12 @@
 	"name": "quiz",
 	"fragen":
   [
-    {"name":"frage1",
+    {"name":"Ist kenis ein baum ?",
       "id":0,
       "antwort1":"füge geignete antwort ein",
-      "antwort2":"kenis",
-      "antwort3":"kenis",
-      "antwort4":"kenis"
+      "antwort2":"ja",
+      "antwort3":"nein er ist ein indianer",
+      "antwort4":"nein er hat zu viele Animes geschaut"
      },
     {"name":"frage2",
       "id":1,
@@ -16,6 +16,6 @@
       "antwort2":"kenis",
       "antwort3":"kenis",
       "antwort4":"kenis"
-    }  
+    }
   ]
 }
