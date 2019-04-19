@@ -15,7 +15,7 @@ $(document).ready(function()
 			console.log(index);
       if(index==null)
       {
-        $('#title').append(" Hey Cheaten bringt dich nirgendwo, du HURENKIND !");
+        $('#title').append(" Hey Cheaten bringt dich nirgendwo");
         $("#gotoFrage").remove();
         $('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
         $('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
