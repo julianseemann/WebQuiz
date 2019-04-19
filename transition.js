@@ -17,9 +17,9 @@ if(index>=quizLength)
 {
 $('#title').append(" Quiz fertig");
 $('#FertigZeit').append("insgesamt hast du "+parseInt(timeSum/100)/10+" s"+" Zeit braucht");
-$('#FertigPunkte').append("insgesamt hast du "+scoreSum+" Punkte erreicht");
+$('#FertigPunkte').append("insgesamt hast du "+parseInt(scoreSum)+" Punkte erreicht");
 $("#Antwortszeit").append('Die letzte Frage hast du in '+parseInt(time/100)/10+" s"+" geantwortet");
-$("#Punkte").append(" Bei der letzten Frage hast du "+score+" erreicht");
+$("#Punkte").append(" Bei der letzten Frage hast du "+parseInt(score)+" erreicht");
 sessionStorage.removeItem("score");
 sessionStorage.removeItem("time");
 }
