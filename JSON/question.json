@@ -14,10 +14,7 @@
 			{
 				"name": "Welche Sportart verbirgt sich wohl hinter dem englischen Begriff „Octopush”?",
 				"id": 1,
-<<<<<<< HEAD
 
-=======
->>>>>>> 3f5d91e0df1d7c4923592c0d3ef9c6849db4d097
 				"antwort1": "Unterwasserhockey",
 				"antwort2": "Unterwasserrugby",
 				"antwort3": "Wasserbasketball",
@@ -32,8 +29,7 @@
 				"antwort3": "800 Meter-Lauf",
 				"antwort4": "Stabwurf",
 				"richtig":3
-<<<<<<< HEAD
-			},
+		},
 			{
 				"name": "Welche der folgenden Disziplinen gehört nicht zum Zehnkampf?",
 				"id": 3,
@@ -62,8 +58,7 @@
 				"antwort4": "kenis",
 				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
 
-=======
->>>>>>> 3f5d91e0df1d7c4923592c0d3ef9c6849db4d097
+
 			}
 		]
 	}
