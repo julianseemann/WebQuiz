@@ -3,7 +3,12 @@ var richtig;
 var index=sessionStorage.getItem("index");
 var wahl=sessionStorage.getItem("quiz");
 var quizLength=2;
+var cheater = true;
 $.getJSON( "JSON/question.json", function( json ) {
+  if(wahl=="cheater")
+  {
+    window.location = "transition.html";
+  }
 	console.log( "JSON Data: " + json[wahl].name );
 	if (index==null)
 	{
@@ -39,12 +44,13 @@ $.getJSON( "JSON/question.json", function( json ) {
 });
 $(document).ready(function()
 	{
+    var start = new Date().getTime();
 		var antwort=$('.antwort')
 		var score=900;
-		var start = new Date().getTime();
 		antwort.click(function()
 			{
 				var stop = new Date().getTime();
+        cheater=false;
 				var end=stop-start;
 				if(this.id==richtig)
 				{
@@ -62,6 +68,7 @@ $(document).ready(function()
 
 		setTimeout(function timeOver()
 			{
+        cheater=false;
 				score=0;
 				setScore(0);
 				console.log("Antwortszeit überschritten");
@@ -88,6 +95,15 @@ $(document).ready(function()
 			timeSum=Number(end)+Number(timeSum);
 			sessionStorage.setItem("time",timeSum);
 		}
-    
+
 
 	});
+  window.onbeforeunload = function() {
+    if(cheater)
+    {
+      sessionStorage.removeItem("score");
+      sessionStorage.removeItem("time");
+      sessionStorage.removeItem("index");
+      sessionStorage.setItem("quiz","cheater");
+    }
+}
