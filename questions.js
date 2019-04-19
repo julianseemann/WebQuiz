@@ -2,10 +2,11 @@
 var richtig;
 var index=sessionStorage.getItem("index");
 var wahl=sessionStorage.getItem("quiz");
+var isCheater=sessionStorage.getItem("isCheater");
 var quizLength=2;
 var cheater = true;
 $.getJSON( "JSON/question.json", function( json ) {
-  if(wahl=="cheater")
+  if(isCheater)
   {
     window.location = "transition.html";
   }
@@ -104,6 +105,6 @@ $(document).ready(function()
       sessionStorage.removeItem("score");
       sessionStorage.removeItem("time");
       sessionStorage.removeItem("index");
-      sessionStorage.setItem("quiz","cheater");
+      sessionStorage.setItem("isCheater",true);
     }
 }
