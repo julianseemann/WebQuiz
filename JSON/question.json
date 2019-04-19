@@ -32,7 +32,7 @@
 		},
 			{
 				"name": "asdasdassd",
-				"id": 4,
+				"id": 3,
 				"antwort1": "füge geignete antwort ein",
 				"antwort2": "kenis",
 				"antwort3": "kenis",
@@ -42,7 +42,7 @@
 			{
 
 				"name": "frage3",
-				"id": 2,
+				"id": 4,
 				"antwort1": "füge geignete antwort ein",
 				"antwort2": "kenis",
 				"antwort3": "kenis",
@@ -55,56 +55,104 @@
 	},
 "quiz2": {
 		"id": 0,
-		"name": "Kultur",
+		"name": "Kriege und Geschichte",
 		"fragen": [{
-				"name": "Aus welcher Sportart stammen die Begriffe „Eagle“, „Birdie“ und „Bogey“?",
+				"name": "Vor wie vielen Jahren eröffnete der erste Biergarten?",
 				"id": 0,
-				"antwort1": "Vom Springreiten",
-				"antwort2": "Aus dem Golfsport",
-				"antwort3": "Vom Fallschirmspringen",
-				"antwort4": "Vom Schwimmen",
-				"richtig":2
-			},
-			{
-				"name": "Welche Sportart verbirgt sich wohl hinter dem englischen Begriff „Octopush”?",
-				"id": 1,
-
-				"antwort1": "Unterwasserhockey",
-				"antwort2": "Unterwasserrugby",
-				"antwort3": "Wasserbasketball",
-				"antwort4": "Unterwasser",
+				"antwort1": "Vor 200 Jahren",
+				"antwort2": "Vor 400 Jahren",
+				"antwort3": "Vor 600 Jahren",
+				"antwort4": "Vor 80 Jahren",
 				"richtig":1
 			},
 			{
-				"name": "Welche der folgenden Disziplinen gehört nicht zum Zehnkampf?",
+				"name": "Auf welche italienische Insel wurde Napoleon verbannt?",
+				"id": 1,
+
+				"antwort1": "Sizilien",
+				"antwort2": "Mallorca",
+				"antwort3": "Ponza",
+				"antwort4": "Elba",
+				"richtig":4
+			},
+			{
+				"name": "Nach welchem germanischen Volksstamm bezeichnet man noch heute sinnlose Beschädigungen?",
 				"id": 2,
-				"antwort1": " Stabhochsprung",
-				"antwort2": "Diskuswerfen",
-				"antwort3": "800 Meter-Lauf",
-				"antwort4": "Stabwurf",
+				"antwort1": "Germanen",
+				"antwort2": "Diskus",
+				"antwort3": "Vandalen",
+				"antwort4": "Sachsen",
 				"richtig":3
 		},
 			{
-				"name": "asdasdassd",
-				"id": 4,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
-				"richtig": 3
+				"name": "Wegen welcher Affäre trat 1974 der US-Präsident Richard Nixon zurück?",
+				"id": 3,
+				"antwort1": "Sekräterin Affäre",
+				"antwort2": "Watergate",
+				"antwort3": "Firegate",
+				"antwort4": "Airgate",
+				"richtig": 2
 			},
 			{
 
-				"name": "frage3",
-				"id": 2,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
-				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
+				"name": "Von welchem Land trennte sich Norwegen 1905?",
+				"id": 4,
+				"antwort1": "Schweden",
+				"antwort2": "Dänemark",
+				"antwort3": "Finnland",
+				"antwort4": "Öland",
+				"richtig": 1
+
+
+			},
+			{
+				"name": "Wann endete der zweite Weltkrieg offiziell für Deutschland?",
+				"id": 5,
+				"antwort1": "2. September 1945",
+				"antwort2": "8. Mai 1945",
+				"antwort3": "18. Mai 1945",
+				"antwort4": "13. September 1945",
+				"richtig": 2
+			},
+			{
+				"name": "Was wurde in den so genannten Prohibitionsjahren, in den USA verboten?",
+				"id": 6,
+				"antwort1": "Schokolade",
+				"antwort2": "Alkohol",
+				"antwort3": "Milch",
+				"antwort4": "Traubenzucker",
+				"richtig": 2
+			},
+			{
+
+				"name": "Was löste der so genannte Prager Fenstersturz aus?",
+				"id": 7,
+				"antwort1": "Volksfest",
+				"antwort2": "50 Jährige Krieg",
+				"antwort3": "Christenverfolgung",
+				"antwort4": "30 Jährige Krieg",
+				"richtig": 4
+
+
+
+			},
+			{
+
+				"name": "Wer setzte zu Kriegszwecken eine Herde Elefanten ein und trieb sie über die Alpen?",
+				"id": 8,
+				"antwort1": "Alexander der Große",
+				"antwort2": "Athene",
+				"antwort3": "Persäus",
+				"antwort4": "Hannibal",
+				"richtig": 4
 
 
 			}
+
+
+
+
+
 		]
 	},
 "quiz3": {
