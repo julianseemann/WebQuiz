@@ -14,6 +14,7 @@
 			{
 				"name": "Welche Sportart verbirgt sich wohl hinter dem englischen Begriff „Octopush”?",
 				"id": 1,
+
 				"antwort1": "Unterwasserhockey",
 				"antwort2": "Unterwasserrugby",
 				"antwort3": "Wasserbasketball",
@@ -28,6 +29,27 @@
 				"antwort3": "800 Meter-Lauf",
 				"antwort4": "Stabwurf",
 				"richtig":3
+		},
+			{
+				"name": "asdasdassd",
+				"id": 4,
+				"antwort1": "füge geignete antwort ein",
+				"antwort2": "kenis",
+				"antwort3": "kenis",
+				"antwort4": "kenis",
+				"richtig": 3
+			},
+			{
+
+				"name": "frage3",
+				"id": 2,
+				"antwort1": "füge geignete antwort ein",
+				"antwort2": "kenis",
+				"antwort3": "kenis",
+				"antwort4": "kenis",
+				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
+
+
 			}
 		]
 	}
