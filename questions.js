@@ -88,5 +88,6 @@ $(document).ready(function()
 			timeSum=Number(end)+Number(timeSum);
 			sessionStorage.setItem("time",timeSum);
 		}
+    
 
 	});

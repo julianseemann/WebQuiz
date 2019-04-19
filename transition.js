@@ -22,6 +22,7 @@ $(document).ready(function()
 				$("#Punkte").append(" Bei der letzten Frage hast du "+parseInt(score)+" erreicht");
         $('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
         $('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
+        $("#gotoFrage").remove();
 				sessionStorage.removeItem("score");
 				sessionStorage.removeItem("time");
         sessionStorage.removeItem("index");
