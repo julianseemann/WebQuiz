@@ -1,3 +1,7 @@
+var quizLength=2;
+var index=sessionStorage.getItem("index");
+var scoreSum=sessionStorage.getItem("score");
+var timeSum=sessionStorage.getItem("time");
 $(document).ready(function()
 {
 var time = window.location.hash.substring(1).split('s')[0];
@@ -8,7 +12,18 @@ function append()
 {
   console.log(time);
   console.log(score);
-if(time==15000)
+  console.log(index);
+if(index>=quizLength)
+{
+$('#title').append(" Quiz fertig");
+$('#FertigZeit').append("insgesamt hast du "+parseInt(timeSum/100)/10+" s"+" Zeit braucht");
+$('#FertigPunkte').append("insgesamt hast du "+scoreSum+" Punkte erreicht");
+$("#Antwortszeit").append('Die letzte Frage hast du in '+parseInt(time/100)/10+" s"+" geantwortet");
+$("#Punkte").append(" Bei der letzten Frage hast du "+score+" erreicht");
+sessionStorage.removeItem("score");
+sessionStorage.removeItem("time");
+}
+else if(time==15000)
 {
 $('#Antwortszeit').append("Bist du ein Denker ? Deine zeit ist abgelaufen Aristotheles");
 }

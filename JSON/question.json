@@ -1,23 +1,25 @@
 {
-	"id": 0,
-	"name": "quiz",
-	"fragen":
-  [
-    {"name":"Ist kenis ein baum ?",
-      "id":0,
-      "antwort1":"füge geignete antwort ein",
-      "antwort2":"ja",
-      "antwort3":"nein er ist ein indianer",
-      "antwort4":"nein er hat zu viele Animes geschaut",
-      "richtig":"schreibe Antwortnummer von der richtigen Antwort hin"  
-     },
-    {"name":"frage2",
-      "id":1,
-      "antwort1":"füge geignete antwort ein",
-      "antwort2":"kenis",
-      "antwort3":"kenis",
-      "antwort4":"kenis",
-      "richtig":"schreibe Antwortnummer von der richtigen Antwort hin" 
-    }
-  ]
+	"quiz1": {
+		"id": 0,
+		"name": "quiz",
+		"fragen": [{
+				"name": "Ist kenis ein baum ?",
+				"id": 0,
+				"antwort1": "füge geignete antwort ein",
+				"antwort2": "ja",
+				"antwort3": "nein er ist ein indianer",
+				"antwort4": "nein er hat zu viele Animes geschaut",
+				"richtig":1
+			},
+			{
+				"name": "frage2",
+				"id": 1,
+				"antwort1": "füge geignete antwort ein",
+				"antwort2": "kenis",
+				"antwort3": "kenis",
+				"antwort4": "kenis",
+				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
+			}
+		]
+	}
 }
