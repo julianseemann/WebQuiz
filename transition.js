@@ -20,8 +20,11 @@ $(document).ready(function()
 				$('#FertigPunkte').append("insgesamt hast du "+parseInt(scoreSum)+" Punkte erreicht");
 				$("#Antwortszeit").append('Die letzte Frage hast du in '+parseInt(time/100)/10+" s"+" geantwortet");
 				$("#Punkte").append(" Bei der letzten Frage hast du "+parseInt(score)+" erreicht");
+        $('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
+        $('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
 				sessionStorage.removeItem("score");
 				sessionStorage.removeItem("time");
+        sessionStorage.removeItem("index");
 			}
 			else if(time==15000)
 			{
@@ -36,6 +39,19 @@ $(document).ready(function()
 				$('#Antwortszeit').append("Du hast in "+parseInt(time/100)/10+" s geantwortet.");
 				$('#Punkte').append("Du hast "+parseInt(score)+" Punkte.");
 			}
-			$('#gotoFrage').click(function(){window.location = "questions.html"+args;})
+			$('#gotoFrage').click(function()
+      {
+        window.location = "questions.html"+args;
+      });
+      $('#quizlist').click(function()
+      {
+        window.location="quizlist.html";
+       sessionStorage.removeItem("quiz");
+     });
+      $('#neustarten').click(function()
+      {
+        window.location="startQuiz.html";
+      });
 		}
+
 	});
