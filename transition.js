@@ -47,13 +47,6 @@ $(document).ready(function()
 				$('#Punkte').append("Ouch das muss weh tun.");
 
         $('#title').append("Oops");
-				$('#Antwortszeit').append("Bist du ein Denker ? Deine zeit ist abgelaufen Aristotheles");
-			}
-			else if(score==0&&time!=15000)
-			{
-        $('#title').append("Oops");
-				$('#Punkte').append("Ouch das muss weh tun so scheiße zu sein.");
-
 			}
 			else if(score!=0&&time!=15000)
 			{
