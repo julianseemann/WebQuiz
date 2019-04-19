@@ -19,6 +19,15 @@
 				"antwort3": "kenis",
 				"antwort4": "kenis",
 				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
+			},
+	{
+				"name": "frage3",
+				"id": 2,
+				"antwort1": "füge geignete antwort ein",
+				"antwort2": "kenis",
+				"antwort3": "kenis",
+				"antwort4": "kenis",
+				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
 			}
 		]
 	}

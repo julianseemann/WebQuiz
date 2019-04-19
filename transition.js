@@ -20,6 +20,7 @@ $(document).ready(function()
         $('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
         $('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
         sessionStorage.removeItem("isCheater");
+				sessionStorage.removeItem("length");
       }
 			else if(index>=quizLength)
 			{
@@ -34,6 +35,7 @@ $(document).ready(function()
 				sessionStorage.removeItem("score");
 				sessionStorage.removeItem("time");
         sessionStorage.removeItem("index");
+				sessionStorage.removeItem("length");
 			}
 			else if(time==15000)
 			{
