@@ -29,11 +29,11 @@ $(document).ready(function()
 			}
 			else if(time==15000)
 			{
-				$('#Antwortszeit').append("Bist du ein Denker ? Deine zeit ist abgelaufen Aristotheles");
+				$('#Antwortszeit').append("Bist du ein Denker ? Deine Zeit ist abgelaufen Aristotheles");
 			}
 			else if(score==0&&time!=15000)
 			{
-				$('#Punkte').append("Ouch das muss weh tun so scheiße zu sein.");
+				$('#Punkte').append("Ouch das muss weh tun.");
 			}
 			else if(score!=0&&time!=15000)
 			{

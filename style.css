@@ -39,10 +39,26 @@
 display:block;
 margin-bottom: 4px;
 }
-.timer
-{
+.timer {
   display: block;
   margin-bottom: 4px;
-  height:30px;
+  height: 30px;
   border: black solid 2px;
+  animation: fortschritt 15s steps(50);
+  background-color: #e83e8c;
+
+
 }
+
+@keyframes fortschritt {
+  from{width: 0%}
+  to{width: 100%}
+
+}
+
+
+.login {
+
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
+}
+
