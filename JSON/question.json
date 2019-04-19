@@ -28,15 +28,6 @@
 				"antwort3": "800 Meter-Lauf",
 				"antwort4": "Stabwurf",
 				"richtig":3
-			},
-			{
-				"name": "Welche der folgenden Disziplinen gehört nicht zum Zehnkampf?",
-				"id": 3,
-				"antwort1": " Stabhochsprung",
-				"antwort2": "Diskuswerfen",
-				"antwort3": "800 Meter-Lauf",
-				"antwort4": "Stabwurf",
-				"richtig":3
 			}
 		]
 	}
