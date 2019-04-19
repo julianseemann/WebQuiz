@@ -1,7 +1,7 @@
-var quizLength=2;
 var index=sessionStorage.getItem("index");
 var scoreSum=sessionStorage.getItem("score");
 var timeSum=sessionStorage.getItem("time");
+var quizLength=sessionStorage.getItem("length");
 $(document).ready(function()
 	{
 		var time = window.location.hash.substring(1).split('s')[0];

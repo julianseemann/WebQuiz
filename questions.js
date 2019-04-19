@@ -3,7 +3,7 @@ var richtig;
 var index=sessionStorage.getItem("index");
 var wahl=sessionStorage.getItem("quiz");
 var isCheater=sessionStorage.getItem("isCheater");
-var quizLength=2;
+var quizLength=sessionStorage.getItem("length");
 var cheater = true;
 $.getJSON( "JSON/question.json", function( json ) {
   if(isCheater)
