@@ -15,14 +15,8 @@ $.getJSON( "JSON/question.json", function( json ) {
 	{
 		index=0;
 	}
-	if (index>=quizLength)
-	{
-
-		index=0;
-		console.log(sessionStorage.getItem("score"));
 		//sessionStorage.removeItem("index");
 		//window.location = "quizlist.html";
-	}
 	console.log(index);
 	richtig=json[wahl].fragen[index].richtig;
 	var antwort1=json[wahl].fragen[index].antwort1;
@@ -111,4 +105,3 @@ $(document).ready(function()
       sessionStorage.setItem("isCheater",true);
     }
 }
-

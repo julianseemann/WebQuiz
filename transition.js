@@ -8,8 +8,11 @@ $(document).ready(function()
 		var score= window.location.hash.substring(1).split('s')[1];
 		var args=window.location.hash.substring(0)
 		append();
+		console.log(index);
+
 		function append()
 		{
+			console.log(quizLength);
 			console.log(time);
 			console.log(score);
 			console.log(index);
@@ -22,7 +25,7 @@ $(document).ready(function()
         sessionStorage.removeItem("isCheater");
 				sessionStorage.removeItem("length");
       }
-			else if(index>=quizLength)
+			else if(Number(index)>=Number(quizLength))
 			{
 				$('#title').append(" Quiz fertig");
 				$('#FertigZeit').append("insgesamt hast du "+parseInt(timeSum/100)/10+" s"+" Zeit braucht");
