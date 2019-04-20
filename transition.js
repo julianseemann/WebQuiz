@@ -25,7 +25,7 @@ $(document).ready(function()
         sessionStorage.removeItem("isCheater");
 				sessionStorage.removeItem("length");
       }
-			else if(Number(index)>=Number(quizLength))
+			else if(index==quizLength)
 			{
 				$('#title').append(" Quiz fertig");
 				$('#FertigZeit').append("insgesamt hast du "+parseInt(timeSum/100)/10+" s"+" Zeit braucht");
