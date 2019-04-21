@@ -54,9 +54,9 @@ $(document).ready(function()
 			}
 			else if(score!=0&&time!=15000)
 			{
-        $('#title').append("Gute Arbeit");
-				$('#Antwortszeit').append("Du hast in "+parseInt(time/100)/10+" s geantwortet.");
-				$('#Punkte').append("Du hast "+parseInt(score)+" Punkte.");
+        $('#title').append(" Gute Arbeit ");
+				$('#Antwortszeit').append(" Du hast in "+parseInt(time/100)/10+" s geantwortet.");
+				$('#Punkte').append(" Du hast "+parseInt(score)+" Punkte. ");
 			}
 			$('#gotoFrage').click(function()
       {
