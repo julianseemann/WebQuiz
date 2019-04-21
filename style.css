@@ -17,6 +17,7 @@
     width:auto;
   margin-left: 30%;
     margin-right: 30%;
+
   
 }
 .btnSize
@@ -62,3 +63,21 @@ margin-bottom: 4px;
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
 }
 
+.text-centerquiz {
+
+  font-size: 15mm;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
+  color: #005cbf;
+
+
+}
+.quizlistebody {
+
+  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

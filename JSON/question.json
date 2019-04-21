@@ -147,7 +147,45 @@
 				"richtig": 4
 
 
-			}	
+			},
+			{
+
+				"name": "Welches Land wurde 1830 von den Niederlanden unabhängig?",
+				"id": 9,
+				"antwort1": "Frankreich",
+				"antwort2": "Deutschland",
+				"antwort3": "Belgien",
+				"antwort4": "Luxenburg",
+				"richtig": 3
+
+
+			},
+			{
+
+				"name": "Wie hieß der erste römische Kaiser, der das Christentum als Religion erlaubte?",
+				"id": 10,
+				"antwort1": "Konstantin der Große",
+				"antwort2": "Constantin der Große",
+				"antwort3": "Konstantin der Kleine",
+				"antwort4": "Constantin der Kleine",
+				"richtig": 1
+
+
+			},
+			{
+
+				"name": "Wer war der erste Präsident der USA?",
+				"id": 11,
+				"antwort1": "Abraham Lincoln",
+				"antwort2": "Thomas Jefferson",
+				"antwort3": "George Washington",
+				"antwort4": "Donald Trump",
+				"richtig": 3
+
+
+			}
+
+
 		]
 	},
 "quiz3": {
