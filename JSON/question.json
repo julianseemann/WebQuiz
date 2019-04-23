@@ -192,53 +192,116 @@
 		"id": 0,
 		"name": "WEB 18",
 		"fragen": [{
-				"name": "Aus welcher Sportart stammen die Begriffe „Eagle“, „Birdie“ und „Bogey“?",
+				"name": "Welchen Man suchen wir“?",
 				"id": 0,
-				"antwort1": "Vom Springreiten",
-				"antwort2": "Aus dem Golfsport",
-				"antwort3": "Vom Fallschirmspringen",
-				"antwort4": "Vom Schwimmen",
-				"richtig":2
+				"antwort1": "Eisman",
+				"antwort2": "Metallman",
+				"antwort3": "Wasserman",
+				"antwort4": "Eisenman",
+				"richtig":4
 			},
 			{
-				"name": "Welche Sportart verbirgt sich wohl hinter dem englischen Begriff „Octopush”?",
+				"name": "Wer ist das Goldene Duo?",
 				"id": 1,
 
-				"antwort1": "Unterwasserhockey",
-				"antwort2": "Unterwasserrugby",
-				"antwort3": "Wasserbasketball",
-				"antwort4": "Unterwasser",
-				"richtig":1
+				"antwort1": "Matteo und Bene",
+				"antwort2": "Hias und Loferer",
+				"antwort3": "Niko und Kili",
+				"antwort4": "Chris und Manu",
+				"richtig":4
 			},
 			{
-				"name": "Welche der folgenden Disziplinen gehört nicht zum Zehnkampf?",
+				"name": "Wer trifft am besten?",
 				"id": 2,
-				"antwort1": " Stabhochsprung",
-				"antwort2": "Diskuswerfen",
-				"antwort3": "800 Meter-Lauf",
-				"antwort4": "Stabwurf",
+				"antwort1": "Bene",
+				"antwort2": "Hias",
+				"antwort3": "Luggi",
+				"antwort4": "Duxi",
 				"richtig":3
 		},
 			{
-				"name": "asdasdassd",
-				"id": 4,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
-				"richtig": 3
+				"name": "Wer hat die meisten Fehltage",
+				"id": 3,
+				"antwort1": "Artem",
+				"antwort2": "Luggi",
+				"antwort3": "Duxi",
+				"antwort4": "Matteo",
+				"richtig": 1
 			},
 			{
 
-				"name": "frage3",
-				"id": 2,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
-				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
+				"name": "Wer trink am meisten Bier in WEB18",
+				"id": 4,
+				"antwort1": "Bene",
+				"antwort2": "Chris",
+				"antwort3": "Kadir",
+				"antwort4": "Magdalena",
+				"richtig": 2
 
 
+			},
+			{
+				"name": "Wer ist der/die Älteste Person in WEB18",
+				"id": 5,
+				"antwort1": "Artem",
+				"antwort2": "Sabrina",
+				"antwort3": "Manu",
+				"antwort4": "Theresa",
+				"richtig": 1
+			},
+			{
+				"name": "Wer konsumiert im allgemeinen am meisten Alkohol in WEB18",
+				"id": 6,
+				"antwort1": "Die BABSI vor der Fastenzeit",
+				"antwort2": "Chris",
+				"antwort3": "Bene",
+				"antwort4": "Larissa",
+				"richtig": 3
+			},
+			{
+				"name": "Wer ist der jüngste in WEB18?",
+				"id": 7,
+				"antwort1": "Alex",
+				"antwort2": "Theresa",
+				"antwort3": "Sabrina",
+				"antwort4": "Larissa",
+				"richtig": 1
+			},
+			{
+				"name": "Wer telefoniert am meisten in WEB18?",
+				"id": 8,
+				"antwort1": "DA Thomas",
+				"antwort2": "DA HIAS",
+				"antwort3": "DA DUXI",
+				"antwort4": "DA JULIAN",
+				"richtig": 1
+			},
+			{
+				"name": "Wer hasst den Sprachunterricht am meisten?",
+				"id": 9,
+				"antwort1": "Bene",
+				"antwort2": "Hias",
+				"antwort3": "Sabrina",
+				"antwort4": "Larissa",
+				"richtig": 2
+			},
+			{
+				"name": "Was ist Bene sein Lieblingsgetränk?",
+				"id": 10,
+				"antwort1": "Wasser",
+				"antwort2": "Augustiner Bier",
+				"antwort3": "Kaffee",
+				"antwort4": "Jacky-Cola",
+				"richtig": 4
+			},
+			{
+				"name": "Wer ist der/die kleinste in WEB18?",
+				"id": 11,
+				"antwort1": "Alex",
+				"antwort2": "Theresa",
+				"antwort3": "Nina",
+				"antwort4": "Larissa",
+				"richtig": 3
 			}
 		]
 	},
