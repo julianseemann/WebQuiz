@@ -26,7 +26,7 @@
   width: 49.6%;
   height: 120px;
   border: black solid 2px;
-  display: block;
+  display: inline;
   background-color: #e83e8c;
   position: center;
   font-size: 10mm;
