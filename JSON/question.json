@@ -415,6 +415,34 @@
 				"richtig": 4
 
 
+			},
+			{
+
+				"name": " Wer hat einen Kopf und keine Füße?",
+				"id": 5,
+				"antwort1": "Der Grill",
+				"antwort2": "Der Nagel",
+				"antwort3": "Der Koffer",
+				"antwort4": "Der Baum",
+				"richtig": 2
+			},
+			{
+				"name": "Welche Bildung macht nicht intelligenter?",
+				"id": 6,
+				"antwort1": "Grundbildung",
+				"antwort2": "Einbildung",
+				"antwort3": "Kampfbildung",
+				"antwort4": "WEBBildung",
+				"richtig": 2
+			},
+			{
+				"name": "Wo hört das Feuer auf und fängt der Rauch an?",
+				"id": 7,
+				"antwort1": "R",
+				"antwort2": "F",
+				"antwort3": "E",
+				"antwort4": "Wasser",
+				"richtig": 1
 			}
 		]
 	}
