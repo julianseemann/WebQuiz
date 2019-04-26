@@ -31,26 +31,85 @@
 				"richtig":3
 		},
 			{
-				"name": "asdasdassd",
+				"name": "Wie nennt man die Trendsportart, bei welchem man auf einem ca. 25-50mm breiten Band läuft?",
 				"id": 3,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
-				"richtig": 3
+				"antwort1": "Hacken",
+				"antwort2": "Slacken",
+				"antwort3": "Dacken",
+				"antwort4": "Backen",
+				"richtig": 2
 			},
 			{
 
-				"name": "frage3",
+				"name": "Wie viel Spieler gibt es beim Rugby?",
 				"id": 4,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
-				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
+				"antwort1": "30",
+				"antwort2": "20",
+				"antwort3": "25",
+				"antwort4": "40",
+				"richtig": 1
 
 
+			},
+			{
+
+				"name": "Wie viele Sekunden muss ein Gewichtheber das Gewicht mit gestreckten Händen ruhig oben halten?",
+				"id": 5,
+				"antwort1": "4",
+				"antwort2": "8",
+				"antwort3": "10",
+				"antwort4": "2",
+				"richtig": 4
+
+
+			},
+			{
+				"name": "Wie viele Schläger darf ein Golfspieler pro Turnier höchstens verwenden?",
+				"id": 6,
+				"antwort1": "4",
+				"antwort2": "14",
+				"antwort3": "10",
+				"antwort4": "18",
+				"richtig": 2
+			},
+			{
+				"name": "Wie viele Minuten dauert eine Halbzeit beim Hockey?",
+				"id": 7,
+				"antwort1": "45",
+				"antwort2": "25",
+				"antwort3": "20",
+				"antwort4": "35",
+				"richtig": 4
+			},
+			{
+				"name": "Wann fand die erste WM im Fußball statt?",
+				"id": 8,
+				"antwort1": "1945",
+				"antwort2": "1925",
+				"antwort3": "1954",
+				"antwort4": "1930",
+				"richtig": 4
+			},
+			{
+				"name": "Wo fand die erste WM im Fußball statt?",
+				"id": 9,
+				"antwort1": "Deutschland",
+				"antwort2": "Brasilien",
+				"antwort3": "Uruguay",
+				"antwort4": "England",
+				"richtig": 3
+			},
+			{
+				"name": "Wer gewann die erste WM in Fußball?",
+				"id": 10,
+				"antwort1": "Deutschland",
+				"antwort2": "Brasilien",
+				"antwort3": "Uruguay",
+				"antwort4": "England",
+				"richtig": 3
 			}
+
+
 		]
 	},
 "quiz2": {
@@ -192,12 +251,12 @@
 		"id": 0,
 		"name": "WEB 18",
 		"fragen": [{
-				"name": "Welchen Man suchen wir“?",
+				"name": "Welchen Mann suchen wir“?",
 				"id": 0,
-				"antwort1": "Eisman",
-				"antwort2": "Metallman",
-				"antwort3": "Wasserman",
-				"antwort4": "Eisenman",
+				"antwort1": "Eismann",
+				"antwort2": "Metallmann",
+				"antwort3": "Wassermann",
+				"antwort4": "Eisenmann",
 				"richtig":4
 			},
 			{
@@ -309,51 +368,51 @@
 		"id": 0,
 		"name": "Fun Fragen",
 		"fragen": [{
-				"name": "Aus welcher Sportart stammen die Begriffe „Eagle“, „Birdie“ und „Bogey“?",
+				"name": "Wer lebt von der Hand in den Mund?",
 				"id": 0,
-				"antwort1": "Vom Springreiten",
-				"antwort2": "Aus dem Golfsport",
-				"antwort3": "Vom Fallschirmspringen",
-				"antwort4": "Vom Schwimmen",
+				"antwort1": "Der Bäcker",
+				"antwort2": "Der Zahnarzt",
+				"antwort3": "Der Boxer",
+				"antwort4": "Der Pornodarsteller",
 				"richtig":2
 			},
 			{
-				"name": "Welche Sportart verbirgt sich wohl hinter dem englischen Begriff „Octopush”?",
+				"name": " Wer hört alles und sagt nichts?",
 				"id": 1,
 
-				"antwort1": "Unterwasserhockey",
-				"antwort2": "Unterwasserrugby",
-				"antwort3": "Wasserbasketball",
-				"antwort4": "Unterwasser",
+				"antwort1": "Das Ohr",
+				"antwort2": "Der Taucher",
+				"antwort3": "Der Zug",
+				"antwort4": "Das Wasser",
 				"richtig":1
 			},
 			{
-				"name": "Welche der folgenden Disziplinen gehört nicht zum Zehnkampf?",
+				"name": "Welcher Mann hat kein Gehör?",
 				"id": 2,
-				"antwort1": " Stabhochsprung",
-				"antwort2": "Diskuswerfen",
-				"antwort3": "800 Meter-Lauf",
-				"antwort4": "Stabwurf",
+				"antwort1": "Eisenmann",
+				"antwort2": "Ehemann",
+				"antwort3": "Schneemann",
+				"antwort4": "Fraumann",
 				"richtig":3
 		},
 			{
-				"name": "asdasdassd",
-				"id": 4,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
+				"name": "Was ist beim Elefanten klein und beim Floh groß?",
+				"id": 3,
+				"antwort1": "Ohr",
+				"antwort2": "Rüssel",
+				"antwort3": "F",
+				"antwort4": "Die Eifersucht der Frau",
 				"richtig": 3
 			},
 			{
 
-				"name": "frage3",
-				"id": 2,
-				"antwort1": "füge geignete antwort ein",
-				"antwort2": "kenis",
-				"antwort3": "kenis",
-				"antwort4": "kenis",
-				"richtig": "schreibe Antwortnummer von der richtigen Antwort hin"
+				"name": " Was gibt es im Dezember, was es sonst in keinem anderen Monat gibt?",
+				"id": 4,
+				"antwort1": "A",
+				"antwort2": "B",
+				"antwort3": "S",
+				"antwort4": "D",
+				"richtig": 4
 
 
 			}
