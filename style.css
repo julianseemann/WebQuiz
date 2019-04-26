@@ -94,8 +94,32 @@ margin-bottom: 4px;
   background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
   color: white;
 
-
 }
+
+.text-centerscoreboard {
+
+  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  text-align: center;
+  padding: 50px;
+  margin-top: 30px;
+  background-size: cover;
+  color: white;
+  font-size: 50px;
+}
+
+.text-centerscoreresult {
+
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  background-size: cover;
+  color: black;
+  font-size: 18px;
+}
+
+
 .quizlistebody {
 
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
@@ -114,6 +138,16 @@ margin-bottom: 4px;
   padding: 50px;
   background-repeat: no-repeat;
   background-size: cover;
+
+
+.text-score {
+  font-size: 50px;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
+  color: white;
+}
+
+
 
 }
 .bodystartQuiz {
