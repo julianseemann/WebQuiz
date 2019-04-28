@@ -1,0 +1,449 @@
+{
+	"quiz1": {
+		"id": 0,
+		"name": "SportQuiz",
+		"fragen": [{
+				"name": "Aus welcher Sportart stammen die Begriffe „Eagle“, „Birdie“ und „Bogey“?",
+				"id": 0,
+				"antwort1": "Vom Springreiten",
+				"antwort2": "Aus dem Golfsport",
+				"antwort3": "Vom Fallschirmspringen",
+				"antwort4": "Vom Schwimmen",
+				"richtig":2
+			},
+			{
+				"name": "Welche Sportart verbirgt sich wohl hinter dem englischen Begriff „Octopush”?",
+				"id": 1,
+
+				"antwort1": "Unterwasserhockey",
+				"antwort2": "Unterwasserrugby",
+				"antwort3": "Wasserbasketball",
+				"antwort4": "Unterwasser",
+				"richtig":1
+			},
+			{
+				"name": "Welche der folgenden Disziplinen gehört nicht zum Zehnkampf?",
+				"id": 2,
+				"antwort1": " Stabhochsprung",
+				"antwort2": "Diskuswerfen",
+				"antwort3": "800 Meter-Lauf",
+				"antwort4": "Stabwurf",
+				"richtig":3
+		},
+			{
+				"name": "Wie nennt man die Trendsportart, bei welchem man auf einem ca. 25-50mm breiten Band läuft?",
+				"id": 3,
+				"antwort1": "Hacken",
+				"antwort2": "Slacken",
+				"antwort3": "Dacken",
+				"antwort4": "Backen",
+				"richtig": 2
+			},
+			{
+
+				"name": "Wie viel Spieler gibt es beim Rugby?",
+				"id": 4,
+				"antwort1": "30",
+				"antwort2": "20",
+				"antwort3": "25",
+				"antwort4": "40",
+				"richtig": 1
+
+
+			},
+			{
+
+				"name": "Wie viele Sekunden muss ein Gewichtheber das Gewicht mit gestreckten Händen ruhig oben halten?",
+				"id": 5,
+				"antwort1": "4",
+				"antwort2": "8",
+				"antwort3": "10",
+				"antwort4": "2",
+				"richtig": 4
+
+
+			},
+			{
+				"name": "Wie viele Schläger darf ein Golfspieler pro Turnier höchstens verwenden?",
+				"id": 6,
+				"antwort1": "4",
+				"antwort2": "14",
+				"antwort3": "10",
+				"antwort4": "18",
+				"richtig": 2
+			},
+			{
+				"name": "Wie viele Minuten dauert eine Halbzeit beim Hockey?",
+				"id": 7,
+				"antwort1": "45",
+				"antwort2": "25",
+				"antwort3": "20",
+				"antwort4": "35",
+				"richtig": 4
+			},
+			{
+				"name": "Wann fand die erste WM im Fußball statt?",
+				"id": 8,
+				"antwort1": "1945",
+				"antwort2": "1925",
+				"antwort3": "1954",
+				"antwort4": "1930",
+				"richtig": 4
+			},
+			{
+				"name": "Wo fand die erste WM im Fußball statt?",
+				"id": 9,
+				"antwort1": "Deutschland",
+				"antwort2": "Brasilien",
+				"antwort3": "Uruguay",
+				"antwort4": "England",
+				"richtig": 3
+			},
+			{
+				"name": "Wer gewann die erste WM in Fußball?",
+				"id": 10,
+				"antwort1": "Deutschland",
+				"antwort2": "Brasilien",
+				"antwort3": "Uruguay",
+				"antwort4": "England",
+				"richtig": 3
+			}
+
+
+		]
+	},
+"quiz2": {
+		"id": 0,
+		"name": "Kriege und Geschichte",
+		"fragen": [{
+				"name": "Vor wie vielen Jahren eröffnete der erste Biergarten?",
+				"id": 0,
+				"antwort1": "Vor 200 Jahren",
+				"antwort2": "Vor 400 Jahren",
+				"antwort3": "Vor 600 Jahren",
+				"antwort4": "Vor 80 Jahren",
+				"richtig":1
+			},
+			{
+				"name": "Auf welche italienische Insel wurde Napoleon verbannt?",
+				"id": 1,
+
+				"antwort1": "Sizilien",
+				"antwort2": "Mallorca",
+				"antwort3": "Ponza",
+				"antwort4": "Elba",
+				"richtig":4
+			},
+			{
+				"name": "Nach welchem germanischen Volksstamm bezeichnet man noch heute sinnlose Beschädigungen?",
+				"id": 2,
+				"antwort1": "Germanen",
+				"antwort2": "Diskus",
+				"antwort3": "Vandalen",
+				"antwort4": "Sachsen",
+				"richtig":3
+		},
+			{
+				"name": "Wegen welcher Affäre trat 1974 der US-Präsident Richard Nixon zurück?",
+				"id": 3,
+				"antwort1": "Sekräterin Affäre",
+				"antwort2": "Watergate",
+				"antwort3": "Firegate",
+				"antwort4": "Airgate",
+				"richtig": 2
+			},
+			{
+
+				"name": "Von welchem Land trennte sich Norwegen 1905?",
+				"id": 4,
+				"antwort1": "Schweden",
+				"antwort2": "Dänemark",
+				"antwort3": "Finnland",
+				"antwort4": "Öland",
+				"richtig": 1
+
+
+			},
+			{
+				"name": "Wann endete der zweite Weltkrieg offiziell für Deutschland?",
+				"id": 5,
+				"antwort1": "2. September 1945",
+				"antwort2": "8. Mai 1945",
+				"antwort3": "18. Mai 1945",
+				"antwort4": "13. September 1945",
+				"richtig": 2
+			},
+			{
+				"name": "Was wurde in den so genannten Prohibitionsjahren, in den USA verboten?",
+				"id": 6,
+				"antwort1": "Schokolade",
+				"antwort2": "Alkohol",
+				"antwort3": "Milch",
+				"antwort4": "Traubenzucker",
+				"richtig": 2
+			},
+			{
+
+				"name": "Was löste der so genannte Prager Fenstersturz aus?",
+				"id": 7,
+				"antwort1": "Volksfest",
+				"antwort2": "50 Jährige Krieg",
+				"antwort3": "Christenverfolgung",
+				"antwort4": "30 Jährige Krieg",
+				"richtig": 4
+
+
+
+			},
+			{
+
+				"name": "Wer setzte zu Kriegszwecken eine Herde Elefanten ein und trieb sie über die Alpen?",
+				"id": 8,
+				"antwort1": "Alexander der Große",
+				"antwort2": "Athene",
+				"antwort3": "Persäus",
+				"antwort4": "Hannibal",
+				"richtig": 4
+
+
+			},
+			{
+
+				"name": "Welches Land wurde 1830 von den Niederlanden unabhängig?",
+				"id": 9,
+				"antwort1": "Frankreich",
+				"antwort2": "Deutschland",
+				"antwort3": "Belgien",
+				"antwort4": "Luxenburg",
+				"richtig": 3
+
+
+			},
+			{
+
+				"name": "Wie hieß der erste römische Kaiser, der das Christentum als Religion erlaubte?",
+				"id": 10,
+				"antwort1": "Konstantin der Große",
+				"antwort2": "Constantin der Große",
+				"antwort3": "Konstantin der Kleine",
+				"antwort4": "Constantin der Kleine",
+				"richtig": 1
+
+
+			},
+			{
+
+				"name": "Wer war der erste Präsident der USA?",
+				"id": 11,
+				"antwort1": "Abraham Lincoln",
+				"antwort2": "Thomas Jefferson",
+				"antwort3": "George Washington",
+				"antwort4": "Donald Trump",
+				"richtig": 3
+
+
+			}
+
+
+		]
+	},
+"quiz3": {
+		"id": 0,
+		"name": "WEB 18",
+		"fragen": [{
+				"name": "Welchen Mann suchen wir“?",
+				"id": 0,
+				"antwort1": "Eismann",
+				"antwort2": "Metallmann",
+				"antwort3": "Wassermann",
+				"antwort4": "Eisenmann",
+				"richtig":4
+			},
+			{
+				"name": "Wer ist das Goldene Duo?",
+				"id": 1,
+
+				"antwort1": "Matteo und Bene",
+				"antwort2": "Hias und Loferer",
+				"antwort3": "Niko und Kili",
+				"antwort4": "Chris und Manu",
+				"richtig":4
+			},
+			{
+				"name": "Wer trifft am besten?",
+				"id": 2,
+				"antwort1": "Bene",
+				"antwort2": "Hias",
+				"antwort3": "Luggi",
+				"antwort4": "Duxi",
+				"richtig":3
+		},
+			{
+				"name": "Wer hat die meisten Fehltage",
+				"id": 3,
+				"antwort1": "Artem",
+				"antwort2": "Luggi",
+				"antwort3": "Duxi",
+				"antwort4": "Matteo",
+				"richtig": 1
+			},
+			{
+
+				"name": "Wer trink am meisten Bier in WEB18",
+				"id": 4,
+				"antwort1": "Bene",
+				"antwort2": "Chris",
+				"antwort3": "Kadir",
+				"antwort4": "Magdalena",
+				"richtig": 2
+
+
+			},
+			{
+				"name": "Wer ist der/die Älteste Person in WEB18",
+				"id": 5,
+				"antwort1": "Artem",
+				"antwort2": "Sabrina",
+				"antwort3": "Manu",
+				"antwort4": "Theresa",
+				"richtig": 1
+			},
+			{
+				"name": "Wer konsumiert im allgemeinen am meisten Alkohol in WEB18",
+				"id": 6,
+				"antwort1": "Die BABSI vor der Fastenzeit",
+				"antwort2": "Chris",
+				"antwort3": "Bene",
+				"antwort4": "Larissa",
+				"richtig": 3
+			},
+			{
+				"name": "Wer ist der jüngste in WEB18?",
+				"id": 7,
+				"antwort1": "Alex",
+				"antwort2": "Theresa",
+				"antwort3": "Sabrina",
+				"antwort4": "Larissa",
+				"richtig": 1
+			},
+			{
+				"name": "Wer telefoniert am meisten in WEB18?",
+				"id": 8,
+				"antwort1": "DA Thomas",
+				"antwort2": "DA HIAS",
+				"antwort3": "DA DUXI",
+				"antwort4": "DA JULIAN",
+				"richtig": 1
+			},
+			{
+				"name": "Wer hasst den Sprachunterricht am meisten?",
+				"id": 9,
+				"antwort1": "Bene",
+				"antwort2": "Hias",
+				"antwort3": "Sabrina",
+				"antwort4": "Larissa",
+				"richtig": 2
+			},
+			{
+				"name": "Was ist Bene sein Lieblingsgetränk?",
+				"id": 10,
+				"antwort1": "Wasser",
+				"antwort2": "Augustiner Bier",
+				"antwort3": "Kaffee",
+				"antwort4": "Jacky-Cola",
+				"richtig": 4
+			},
+			{
+				"name": "Wer ist der/die kleinste in WEB18?",
+				"id": 11,
+				"antwort1": "Alex",
+				"antwort2": "Theresa",
+				"antwort3": "Nina",
+				"antwort4": "Larissa",
+				"richtig": 3
+			}
+		]
+	},
+"quiz4": {
+		"id": 0,
+		"name": "Fun Fragen",
+		"fragen": [{
+				"name": "Wer lebt von der Hand in den Mund?",
+				"id": 0,
+				"antwort1": "Der Bäcker",
+				"antwort2": "Der Zahnarzt",
+				"antwort3": "Der Boxer",
+				"antwort4": "Der Pornodarsteller",
+				"richtig":2
+			},
+			{
+				"name": " Wer hört alles und sagt nichts?",
+				"id": 1,
+
+				"antwort1": "Das Ohr",
+				"antwort2": "Der Taucher",
+				"antwort3": "Der Zug",
+				"antwort4": "Das Wasser",
+				"richtig":1
+			},
+			{
+				"name": "Welcher Mann hat kein Gehör?",
+				"id": 2,
+				"antwort1": "Eisenmann",
+				"antwort2": "Ehemann",
+				"antwort3": "Schneemann",
+				"antwort4": "Fraumann",
+				"richtig":3
+		},
+			{
+				"name": "Was ist beim Elefanten klein und beim Floh groß?",
+				"id": 3,
+				"antwort1": "Ohr",
+				"antwort2": "Rüssel",
+				"antwort3": "F",
+				"antwort4": "Die Eifersucht der Frau",
+				"richtig": 3
+			},
+			{
+
+				"name": " Was gibt es im Dezember, was es sonst in keinem anderen Monat gibt?",
+				"id": 4,
+				"antwort1": "A",
+				"antwort2": "B",
+				"antwort3": "S",
+				"antwort4": "D",
+				"richtig": 4
+
+
+			},
+			{
+
+				"name": " Wer hat einen Kopf und keine Füße?",
+				"id": 5,
+				"antwort1": "Der Grill",
+				"antwort2": "Der Nagel",
+				"antwort3": "Der Koffer",
+				"antwort4": "Der Baum",
+				"richtig": 2
+			},
+			{
+				"name": "Welche Bildung macht nicht intelligenter?",
+				"id": 6,
+				"antwort1": "Grundbildung",
+				"antwort2": "Einbildung",
+				"antwort3": "Kampfbildung",
+				"antwort4": "WEBBildung",
+				"richtig": 2
+			},
+			{
+				"name": "Wo hört das Feuer auf und fängt der Rauch an?",
+				"id": 7,
+				"antwort1": "R",
+				"antwort2": "F",
+				"antwort3": "E",
+				"antwort4": "Wasser",
+				"richtig": 1
+			}
+		]
+	}
+}
