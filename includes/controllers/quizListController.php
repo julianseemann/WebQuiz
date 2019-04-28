@@ -13,7 +13,6 @@ class quizListController extends Controller
 	{
 		$this->view->username = $this->user->username;
 
-		$this->view->address = AddressModel::getAddressById($id);
 	}
 
 }

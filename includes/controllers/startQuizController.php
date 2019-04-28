@@ -12,8 +12,6 @@ class startQuizController extends Controller
 	public function run()
 	{
 		$this->view->username = $this->user->username;
-
-		$this->view->address = AddressModel::getAddressById($id);
 	}
 
 }

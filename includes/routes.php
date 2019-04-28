@@ -31,3 +31,4 @@ $route['/startQuiz.html'] = array('controller' => 'startQuizController', 'unique
 
 $route['/questions'] = array('controller' => 'questionsController', 'uniqueName' => 'questions');
 $route['/questions.html'] = array('controller' => 'questionsController', 'uniqueName' => 'questions');
+
