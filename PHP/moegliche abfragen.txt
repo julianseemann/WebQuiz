@@ -1,0 +1,19 @@
+-- currentValue: Ein Value oder array von Values, der zu der derzeitigen Session vom User auftritt --
+
+insert into User(nick,password)
+values (xxx,yyy); -- in Echtzeit currentValues --
+
+insert into Ergebnisse(UserID,QuizID,Score,Time)
+values(xxx,yyy,zzz,www); -- in Echtzeit currentValues --
+
+--QuizID wird von der Quiz Json-Datei Direkt rausgelesen--
+
+select QuizID, Score,Time, Name from Ergebnisse as a inner join User as b 
+on b.ID=a.UserID --where ErgebnisID=currentErgebnisID 
+--(falls wir nicht das ganze Array auslesen wollen und in Echtzeit arbeiten) --
+
+--QuizID wird mit einer Passenden Anwendung in Quiz.Name von dem 
+--scoreboard beschrieben wird--
+
+--vielleicht auch:
+delete from User where ID=CurrentID
