@@ -2,13 +2,19 @@
 echo $this->header;
 ?>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <h1 class="navbar-brand">Scoreboard</h1>
+  <h1 class="navbar-brand">WebQuiz</h1>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="quizlist">Alle Quizzes</a>
-      </li>
-    </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="quizlist">Alle Quizes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="scoreboard">Scoreboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout">logout</a>
+          </li>
+        </ul>
   </div>
 </nav>
 <div class="QuestionBox">
