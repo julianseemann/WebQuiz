@@ -2,6 +2,7 @@ var index=sessionStorage.getItem("index");
 var scoreSum=sessionStorage.getItem("score");
 var timeSum=sessionStorage.getItem("time");
 var quizLength=sessionStorage.getItem("length");
+var quizID=sessionStorage.getItem("quiz");
 $(document).ready(function()
 	{
 		var time = window.location.hash.substring(1).split('s')[0];
@@ -34,7 +35,21 @@ $(document).ready(function()
 				$("#Punkte").append(" Bei der letzten Frage hast du "+parseInt(score)+" erreicht");
         $('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
         $('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
+				$('.QuestionBox').append('<br><btn id="scoreboard" class="btn btnSize ">Zum Scoreboard</btn>');
         $("#gotoFrage").remove();
+				$.ajax({
+	         'url':    'transition',
+	         'method': 'post',
+	         'data':    {'action': 'saveScore','quizID':quizID, 'time': timeSum, 'score': scoreSum},
+	         'success': function(receivedData) {
+	             if(receivedData.result) {
+	                 //after save change url to scoreboard
+
+	             		}
+
+	 							}
+ 							});
+
 				sessionStorage.removeItem("score");
 				sessionStorage.removeItem("time");
         sessionStorage.removeItem("index");
@@ -71,6 +86,10 @@ $(document).ready(function()
       {
         window.location="startQuiz";
       });
+        $('#scoreboard').click(function()
+            {
+            window.location="scoreboard";
+					});
 		}
 
 	});

@@ -6,7 +6,8 @@ class retrieveBoard
 	public static function getScores($quizID)
 	{
 		$db = new Database();
-		$sql = "SELECT userID,quizID,compleTime,score from scoreboard as a inner join user as b on b.id=userID where `quizID`=$quizID";
+		$quizID=$db->escapeString($quizID);
+		$sql = "SELECT name,quizID,compleTime,score from scoreboard as a inner join user as b on b.id=userID where `quizID`='$quizID' order by score desc";
 		$result = $db->query($sql);
 		if($db->numRows($result) > 0)
 		{

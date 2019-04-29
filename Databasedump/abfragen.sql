@@ -6,14 +6,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
 
-DROP TABLE IF EXISTS `scoreboard`;CREATE TABLE IF NOT EXISTS `scoreboard` (
-  id int(10) unsigned NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (id),
-  quizID varchar(5),
-  userID int(10) unsigned,
-  FOREIGN KEY (userID) REFERENCES `user`(id)
-) ENGINE = InnoDB DEFAULT CHARSET = utf8 AUTO_INCREMENT = 6;
-
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
@@ -23,8 +15,19 @@ CREATE TABLE IF NOT EXISTS `user` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
-
 TRUNCATE TABLE `user`;
+
+DROP TABLE IF EXISTS `scoreboard`;CREATE TABLE IF NOT EXISTS `scoreboard` (
+  id int(10) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (id),
+  quizID varchar(5),
+  userID int unsigned,
+    score int unsigned,
+    compleTime int unsigned,
+  FOREIGN KEY (userID) REFERENCES `user`(id)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8 AUTO_INCREMENT = 6;
+
+
 INSERT INTO `user` (`id`, `name`, `password`) VALUES
 (1, 'Jason', '$2y$10$sbWJ77.MBJXg0ad95GVKgukoz6yHiwOoaL2N4eLR7OaiOOgc/PRNa'),
 (2, 'Julia', '$2y$10$j13lwPCSUihW7Z15LVrSGOf5uoZmQhUntLNkNXnBYYidPZSbuC9B2'),
