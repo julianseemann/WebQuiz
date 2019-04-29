@@ -8,7 +8,7 @@
 
             alle javascripts sind im Ordner js befindlich
 
-            ihr müsst eine Datenbank WebQuiz, einen user test mit allen privileges und den Passwort test1234 erstellen.
+            ihr müsst eine Datenbank WebQuiz, einen user test1 mit allen privileges und den Passwort test1234 erstellen.
 
             Für die Tabellen in WebQuiz verwendet die Abfragen im Ordner Databasedump... falls ein Error kommt, führt sie alle einzeln           aus 
             
