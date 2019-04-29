@@ -1,6 +1,22 @@
 $(document).ready(function()
 {
-var quizID="quiz1";
+var number =sessionStorage.getItem("quiz");
+if(number!=null)
+{
+	quizID=number;
+}
+else
+{
+quizID='quiz1';
+}
+function mark()
+{
+$('.selector').removeClass("active");	
+$('#'+quizID).addClass("active");
+}
+sessionStorage.removeItem("quiz");
+query();
+mark();
  function query()
 {
   $.ajax({
@@ -27,11 +43,11 @@ function write(scores)
 	}
 	$('#scoreTable').append("</tbody></table>");
 }
-query();
       $('.selector').click(function()
   {
 		$("#scoreTable tr:gt(0)").remove();
     quizID=this.id;
        query();
+			 mark();
   });
 });

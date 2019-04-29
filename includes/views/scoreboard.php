@@ -27,16 +27,16 @@ echo $this->header;
 <div class="text-centerscoreresult navbar-expand-lg navbar-light text-center">
     <ul class="navbar-nav">
       <li class="nav-item ">
-            <a class="nav-link selector" id="quiz1">Sport</a>
+            <a class="nav-link selector" href="#" id="quiz1">Sport</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active selector"   id="quiz2">Kriege und Geschichte</a>
+            <a class="nav-link selector" href="#"  id="quiz2">Kriege und Geschichte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link selector" id="quiz3">WEB 18</a>
+            <a class="nav-link selector" href="#" id="quiz3">WEB 18</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link selector"  id="quiz4">Fun Fragen</a>
+            <a class="nav-link selector" href="#" id="quiz4">Fun Fragen</a>
           </li>
           </ul>
   </div>
