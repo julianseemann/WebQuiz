@@ -11,7 +11,7 @@ quizID='quiz1';
 }
 function mark()
 {
-$('.selector').removeClass("active");	
+$('.selector').removeClass("active");
 $('#'+quizID).addClass("active");
 }
 sessionStorage.removeItem("quiz");
@@ -38,7 +38,7 @@ function write(scores)
 {
 	for( i in scores)
 	{
-		$('#scoreTable').append("<tr><td>"+scores[i].name+"</td><td>"+parseInt(scores[i].compleTime/100)/10+"sec</td><td>"+scores[i].score+"</td></tr>");
+		$('#scoreTable').append("<tr><td>"+(parseInt(i)+1)+"</td><td>"+scores[i].name+"</td><td>"+parseInt(scores[i].compleTime/100)/10+"sec</td><td>"+scores[i].score+"</td></tr>");
 
 	}
 	$('#scoreTable').append("</tbody></table>");

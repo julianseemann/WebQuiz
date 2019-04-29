@@ -45,6 +45,7 @@ echo $this->header;
     <table class="table" id="scoreTable">
         <thead>
         <tr>
+            <th scope="col">Position</th>
             <th scope="col">Name</th>
             <th scope="col">Zeit</th>
             <th scope="col">Punkte</th>
