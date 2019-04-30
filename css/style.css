@@ -1,7 +1,10 @@
 :root
 {
 }
-
+.scoreNav
+{
+    padding-left:14%;
+}
 .quizWahl
 {
     background-color:white;
@@ -20,13 +23,10 @@
 
   position: relative;
   color: #171a1d;
-
-
-
 }
 .QuestionBox
 {
-  margin-top: 100px;
+  margin-top: 150px;
   height:auto;
     width:auto;
   margin-left: 30%;

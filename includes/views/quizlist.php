@@ -1,7 +1,7 @@
 <?php
 echo $this->header;
 ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-sticky">
   <h1 class="navbar-brand">WebQuiz</h1>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
@@ -29,6 +29,7 @@ echo $this->header;
 <button type="button" class="btn btn-default btn-block btn-lg quizWahl" id="quiz4">Fun Fragen</button>
     </div>
 </div>
+    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/quizlist.js"></script>
 

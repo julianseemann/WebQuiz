@@ -31,7 +31,7 @@ echo $this->header;
 <body class="scorebordbody">
 <h1 class="text-centerscoreboard">Scoreboard</h1>
 <div class="text-centerscoreresult navbar-expand-lg navbar-light text-center">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav scoreNav">
       <li class="nav-item ">
             <a class="nav-link selector" href="#" id="quiz1">Sport</a>
           </li>
