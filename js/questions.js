@@ -10,7 +10,6 @@ $.getJSON( "JSON/question.json", function( json ) {
   {
     window.location = "transition";
   }
-	console.log( "JSON Data: " + json[wahl].name );
 	if (index==null)
 	{
 		index=0;
