@@ -14,6 +14,18 @@ echo $this->header;
 
         </div>
 
+        <style>
+            body  {
+                background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+                text-align: center;
+                padding: 50px;
+                margin-top: 30px;
+                background-size: cover;
+                color: white;
+                font-size: 50px;
+            }
+        </style>
+
 </body>
 
 <?php
