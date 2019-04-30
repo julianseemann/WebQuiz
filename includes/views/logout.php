@@ -3,10 +3,7 @@
 echo $this->header;
 
 ?>
-
-
 <body>
-
 
         <div class="text-center">
              <h1 style="font-size:40px">Logout erfolgreich</h1>

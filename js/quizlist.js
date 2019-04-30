@@ -1,3 +1,4 @@
+sessionStorage.removeItem("isCheater");
 $(document).ready(function()
 	{
 		$(".quizWahl").click( function()
