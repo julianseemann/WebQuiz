@@ -1,6 +1,15 @@
 :root
 {
 }
+
+.quizWahl
+{
+    background-color:white;
+}
+.quizWahl:hover
+{
+    background-color:gainsboro;
+}
 .inputArea
 {
   margin-top: 10%;
@@ -17,15 +26,12 @@
 }
 .QuestionBox
 {
-  margin-top: 30px;
+  margin-top: 100px;
   height:auto;
     width:auto;
   margin-left: 30%;
     margin-right: 30%;
   display:block;
-
-
-
 
 }
 
@@ -38,6 +44,7 @@
   border-spacing: 70px;
 
 }
+
 
 .btnSize
 {

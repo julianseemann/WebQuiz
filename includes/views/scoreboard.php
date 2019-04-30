@@ -1,6 +1,7 @@
 <?php
 echo $this->header;
 ?>
+<body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/scoreboard.js" type="text/javascript">
 </script>
@@ -56,6 +57,6 @@ echo $this->header;
             <th scope="col">Punkte</th>
         </tr>
         </thead>
-</body>
-</div>
+    </div>
+</body>    
 </html>
