@@ -62,8 +62,7 @@ $(document).ready(function()
 			{
         cheater=false;
 				score=0;
-				setScore(0);
-				console.log("Antwortszeit überschritten");
+				setScore(15000);
 				window.location = "transition"+'#'+15000+'s'+0;},15000)  //füge Transition auf seite zwischen Fragen zu, speicher in DB
 		function timer(end)
 		{
