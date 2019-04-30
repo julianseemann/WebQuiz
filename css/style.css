@@ -34,8 +34,6 @@
 }
 
 
-.table {
-=======
 .QuestionBox
 {
   margin-top: 8%;
@@ -56,7 +54,7 @@
   border-spacing: 70px;
 }
 
-/* line 51, ../scss/style.scss */
+
 .btnSize {
   width: 49.6%;
   height: 120px;
@@ -71,11 +69,6 @@
 
 .QuestionSqaure {
   width: auto;
-=======
-.QuestionSqaure
-{
-  width:auto;
->>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
   height: 240px;
   border: black solid 2px;
   position: relative;
@@ -86,7 +79,6 @@
   display: block;
   margin-bottom: 4px;
 }
-
 
 .btnCont
 {
@@ -105,6 +97,8 @@ margin-bottom: 4px;
 }
 
 
+@keyframes fortschritt {
+
   from {
     width: 0%;
   }
@@ -112,6 +106,7 @@ margin-bottom: 4px;
     width: 100%;
   }
 }
+
 
   from{width: 0%}
   to{width: 100%}
@@ -175,22 +170,18 @@ margin-bottom: 4px;
 }
 
 
-xt-score {
+.xt-score {
 
-
-
-.text-score {
->>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
   font-size: 50px;
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
   color: white;
 }
 
-
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
+  border: black solid 2px;
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,12 +189,10 @@ xt-score {
 
 
 #gotoFrage {
-  background-color: #007bff;
+  background-color: #e83e8c;
   margin-top: 40px;
   display: inline-block;
 }
-
-
 
 .schriftstartquiz {
   color: white;
