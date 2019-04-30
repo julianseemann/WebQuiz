@@ -209,12 +209,9 @@ xt-score {
   color: #007bff;
 }
 
-/* line 223, ../scss/style.scss */
-.inner {
-  background-color: #007bff;
-}
-
-/* line 227, ../scss/style.scss */
-.col-xs-12 {
-  background-color: #e83e8c;
+/* line 232, ../scss/style.scss */
+.loginbody {
+  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
