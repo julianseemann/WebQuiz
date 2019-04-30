@@ -85,6 +85,18 @@ margin-bottom: 4px;
 }
 
 
+.rowlogout {
+
+  margin-top: 30px;
+  height:auto;
+  width:auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  display:block;
+
+}
+
+
 .login {
 
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
@@ -145,10 +157,6 @@ margin-bottom: 4px;
 }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5d7ce2690afa726c227b991c0940508302a1800a
 
 .text-score {
   font-size: 50px;
@@ -157,15 +165,9 @@ margin-bottom: 4px;
   color: white;
 }
 
-<<<<<<< HEAD
-
-
-=======
 
 
 
-
->>>>>>> 5d7ce2690afa726c227b991c0940508302a1800a
 .bodystartQuiz {
 
   text-align: center;

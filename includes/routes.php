@@ -1,10 +1,10 @@
 <?php
 //define Routes
-$route['/'] = array('controller' => 'IndexController', 'uniqueName' => 'index'
+$route['/'] = array('controller' => 'quizListController', 'uniqueName' => 'quizlist'
 );
-$route['/index'] = array('controller' => 'IndexController', 'uniqueName' => 'index'
+$route['/index'] = array('controller' => 'quizListController', 'uniqueName' => 'quizlist'
 );
-$route['/index.html'] = array('controller' => 'IndexController', 'uniqueName' => 'index'
+$route['/index.html'] = array('controller' => 'quizListController', 'uniqueName' => 'quizlist'
 );
 
 
