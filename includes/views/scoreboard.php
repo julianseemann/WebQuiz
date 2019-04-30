@@ -6,7 +6,7 @@ echo $this->header;
 </script>
 <style>
     html {
-  overflow-y: scroll;
+  overflow-y: overlay;
 }
 </style>
 
