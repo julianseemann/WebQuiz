@@ -23,6 +23,7 @@
   position: relative;
   color: #171a1d;
 }
+<<<<<<< HEAD
 
 /* line 27, ../scss/style.scss */
 .QuestionBox {
@@ -36,6 +37,20 @@
 
 /* line 40, ../scss/style.scss */
 .table {
+=======
+.QuestionBox
+{
+  margin-top: 8%;
+  height:auto;
+    width:auto;
+  margin-left: 30%;
+    margin-right: 30%;
+  display:block;
+}
+
+.table
+{
+>>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -56,15 +71,22 @@
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 66, ../scss/style.scss */
 .QuestionSqaure {
   width: auto;
+=======
+.QuestionSqaure
+{
+  width:auto;
+>>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
   height: 240px;
   border: black solid 2px;
   position: relative;
   margin-bottom: 4px;
 }
 
+<<<<<<< HEAD
 /* line 74, ../scss/style.scss */
 .btnCont {
   display: block;
@@ -72,6 +94,14 @@
 }
 
 /* line 79, ../scss/style.scss */
+=======
+.btnCont
+{
+display:block;
+margin-bottom: 4px;
+}
+
+>>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
 .timer {
   display: block;
   margin-bottom: 4px;
@@ -82,6 +112,7 @@
 }
 
 @keyframes fortschritt {
+<<<<<<< HEAD
   from {
     width: 0%;
   }
@@ -90,6 +121,14 @@
   }
 }
 /* line 98, ../scss/style.scss */
+=======
+  from{width: 0%}
+  to{width: 100%}
+
+}
+
+
+>>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
 .login {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
 }
@@ -145,19 +184,28 @@
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 158, ../scss/style.scss */
 xt-score {
+=======
+
+
+.text-score {
+>>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
   font-size: 50px;
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 166, ../scss/style.scss */
+=======
+
+>>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
-  border: black solid 2px;
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,10 +213,15 @@ xt-score {
 
 /* line 176, ../scss/style.scss */
 #gotoFrage {
-  background-color: #e83e8c;
+  background-color: #007bff;
   margin-top: 40px;
   display: inline-block;
 }
+<<<<<<< HEAD
+=======
+
+.schriftstartquiz {
+>>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
 
 /* line 184, ../scss/style.scss */
 .schriftstartquiz {
