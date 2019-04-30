@@ -17,7 +17,6 @@ $.getJSON( "JSON/question.json", function( json ) {
 	}
 		//sessionStorage.removeItem("index");
 		//window.location = "quizlist.html";
-	console.log(index);
 	richtig=json[wahl].fragen[index].richtig;
 	var antwort1=json[wahl].fragen[index].antwort1;
 	var antwort2=json[wahl].fragen[index].antwort2;
@@ -26,7 +25,6 @@ $.getJSON( "JSON/question.json", function( json ) {
 	var name=json[wahl].fragen[index].name;
 	sessionStorage.setItem("index",Number(index)+Number(1));
 	fillHtml();
-	console.log(richtig);
 	function fillHtml()
 	{
 		$('.questionArea').append(name);
