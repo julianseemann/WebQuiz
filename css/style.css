@@ -1,31 +1,29 @@
-/* line 4, ../scss/style.scss */
+
 .scoreNav {
   padding-left: 14%;
 }
 
-/* line 8, ../scss/style.scss */
+
 .quizWahl {
   background-color: white;
 }
 
-/* line 12, ../scss/style.scss */
+
 .quizWahl:hover {
   background-color: gainsboro;
 }
 
-/* line 16, ../scss/style.scss */
+
 .inputArea {
   margin-top: 10%;
 }
 
-/* line 21, ../scss/style.scss */
+
 .questionArea {
   position: relative;
   color: #171a1d;
 }
-<<<<<<< HEAD
 
-/* line 27, ../scss/style.scss */
 .QuestionBox {
   margin-top: 150px;
   height: auto;
@@ -35,7 +33,7 @@
   display: block;
 }
 
-/* line 40, ../scss/style.scss */
+
 .table {
 =======
 .QuestionBox
@@ -50,7 +48,7 @@
 
 .table
 {
->>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
+
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -71,8 +69,6 @@
   color: white;
 }
 
-<<<<<<< HEAD
-/* line 66, ../scss/style.scss */
 .QuestionSqaure {
   width: auto;
 =======
@@ -86,22 +82,19 @@
   margin-bottom: 4px;
 }
 
-<<<<<<< HEAD
-/* line 74, ../scss/style.scss */
 .btnCont {
   display: block;
   margin-bottom: 4px;
 }
 
-/* line 79, ../scss/style.scss */
-=======
+
 .btnCont
 {
 display:block;
 margin-bottom: 4px;
 }
 
->>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
+
 .timer {
   display: block;
   margin-bottom: 4px;
@@ -111,8 +104,7 @@ margin-bottom: 4px;
   background-color: #e83e8c;
 }
 
-@keyframes fortschritt {
-<<<<<<< HEAD
+
   from {
     width: 0%;
   }
@@ -120,20 +112,18 @@ margin-bottom: 4px;
     width: 100%;
   }
 }
-/* line 98, ../scss/style.scss */
-=======
+
   from{width: 0%}
   to{width: 100%}
 
 }
 
 
->>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
 .login {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
 }
 
-/* line 104, ../scss/style.scss */
+
 .text-centerquiz {
   font-size: 15mm;
   text-align: center;
@@ -141,7 +131,7 @@ margin-bottom: 4px;
   color: white;
 }
 
-/* line 113, ../scss/style.scss */
+
 .text-centerscoreboard {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   text-align: center;
@@ -152,7 +142,7 @@ margin-bottom: 4px;
   font-size: 50px;
 }
 
-/* line 124, ../scss/style.scss */
+
 .text-centerscoreresult {
   background-color: white;
   text-align: center;
@@ -164,7 +154,7 @@ margin-bottom: 4px;
   font-size: 18px;
 }
 
-/* line 137, ../scss/style.scss */
+
 .quizlistebody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -174,7 +164,7 @@ margin-bottom: 4px;
   background-size: cover;
 }
 
-/* line 148, ../scss/style.scss */
+
 .scorebordbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -184,10 +174,9 @@ margin-bottom: 4px;
   background-size: cover;
 }
 
-<<<<<<< HEAD
-/* line 158, ../scss/style.scss */
+
 xt-score {
-=======
+
 
 
 .text-score {
@@ -198,11 +187,7 @@ xt-score {
   color: white;
 }
 
-<<<<<<< HEAD
-/* line 166, ../scss/style.scss */
-=======
 
->>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
@@ -211,63 +196,59 @@ xt-score {
   background-size: cover;
 }
 
-/* line 176, ../scss/style.scss */
+
 #gotoFrage {
   background-color: #007bff;
   margin-top: 40px;
   display: inline-block;
 }
-<<<<<<< HEAD
-=======
 
-.schriftstartquiz {
->>>>>>> 2e6543fd27dd8ee45355d41c7fcdf6a33d5c186c
 
-/* line 184, ../scss/style.scss */
+
 .schriftstartquiz {
   color: white;
 }
 
-/* line 189, ../scss/style.scss */
+
 .bodytransition {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 195, ../scss/style.scss */
+
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 203, ../scss/style.scss */
+
 #FertigPunkte {
   color: red;
 }
 
-/* line 209, ../scss/style.scss */
+
 #FertigZeit {
   color: greenyellow;
 }
 
-/* line 212, ../scss/style.scss */
+
 #Antwortszeit {
   color: #1c7430;
 }
 
-/* line 215, ../scss/style.scss */
+
 #Punkte {
   color: #007bff;
 }
 
-/* line 223, ../scss/style.scss */
+
 .inner {
   background-color: #007bff;
 }
 
-/* line 227, ../scss/style.scss */
+
 .col-xs-12 {
   background-color: #e83e8c;
 }
