@@ -10,14 +10,12 @@ $.getJSON( "JSON/question.json", function( json ) {
   {
     window.location = "transition";
   }
-	console.log( "JSON Data: " + json[wahl].name );
 	if (index==null)
 	{
 		index=0;
 	}
 		//sessionStorage.removeItem("index");
 		//window.location = "quizlist.html";
-	console.log(index);
 	richtig=json[wahl].fragen[index].richtig;
 	var antwort1=json[wahl].fragen[index].antwort1;
 	var antwort2=json[wahl].fragen[index].antwort2;
@@ -26,7 +24,6 @@ $.getJSON( "JSON/question.json", function( json ) {
 	var name=json[wahl].fragen[index].name;
 	sessionStorage.setItem("index",Number(index)+Number(1));
 	fillHtml();
-	console.log(richtig);
 	function fillHtml()
 	{
 		$('.questionArea').append(name);
@@ -65,8 +62,7 @@ $(document).ready(function()
 			{
         cheater=false;
 				score=0;
-				setScore(0);
-				console.log("Antwortszeit überschritten");
+				setScore(15000);
 				window.location = "transition"+'#'+15000+'s'+0;},15000)  //füge Transition auf seite zwischen Fragen zu, speicher in DB
 		function timer(end)
 		{

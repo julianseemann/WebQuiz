@@ -1,9 +1,15 @@
 <?php
 echo $this->header;
 ?>
+<body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/scoreboard.js" type="text/javascript">
 </script>
+<style>
+    html {
+  overflow-y: overlay;
+}
+</style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <h1 class="navbar-brand">WebQuiz</h1>
@@ -25,7 +31,7 @@ echo $this->header;
 <body class="scorebordbody">
 <h1 class="text-centerscoreboard">Scoreboard</h1>
 <div class="text-centerscoreresult navbar-expand-lg navbar-light text-center">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav scoreNav">
       <li class="nav-item ">
             <a class="nav-link selector" href="#" id="quiz1">Sport</a>
           </li>
@@ -51,6 +57,6 @@ echo $this->header;
             <th scope="col">Punkte</th>
         </tr>
         </thead>
-</body>
-</div>
+    </div>
+</body>    
 </html>

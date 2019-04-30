@@ -3,20 +3,16 @@ var scoreSum=sessionStorage.getItem("score");
 var timeSum=sessionStorage.getItem("time");
 var quizLength=sessionStorage.getItem("length");
 var quizID=sessionStorage.getItem("quiz");
+var cheater = true;
 $(document).ready(function()
 	{
 		var time = window.location.hash.substring(1).split('s')[0];
 		var score= window.location.hash.substring(1).split('s')[1];
 		var args=window.location.hash.substring(0)
 		append();
-		console.log(index);
 
 		function append()
 		{
-			console.log(quizLength);
-			console.log(time);
-			console.log(score);
-			console.log(index);
       if(index==null)
       {
         $('#title').append(" Hey Cheaten bringt dich nirgendwo");
@@ -75,21 +71,36 @@ $(document).ready(function()
 			}
 			$('#gotoFrage').click(function()
       {
+                cheater=false;
         window.location = "questions"+args;
       });
       $('#quizlist').click(function()
       {
+          cheater=false;
         window.location="quizlist";
        sessionStorage.removeItem("quiz");
      });
       $('#neustarten').click(function()
       {
+          cheater=false;
         window.location="startQuiz";
       });
         $('#scoreboard').click(function()
             {
+            cheater=false;
             window.location="scoreboard";
 					});
 		}
 
+
 	});
+
+  window.onbeforeunload = function() {
+    if(cheater)
+    {
+      sessionStorage.removeItem("score");
+      sessionStorage.removeItem("time");
+      sessionStorage.removeItem("index");
+      sessionStorage.setItem("isCheater",true);
+    }
+}
