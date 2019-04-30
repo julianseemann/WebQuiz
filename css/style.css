@@ -32,10 +32,7 @@
   margin-left: 30%;
     margin-right: 30%;
   display:block;
-
 }
-
-
 
 .table
 {
@@ -44,7 +41,6 @@
   margin-right: auto;
   border-collapse: collapse;
   border-spacing: 70px;
-
 }
 
 
@@ -59,10 +55,8 @@
   font-size: 10mm;
   text-align: center;
   color: white;
-
-
-
 }
+
 .QuestionSqaure
 {
   width:auto;
@@ -71,11 +65,13 @@
   position: relative;
   margin-bottom: 4px;
 }
+
 .btnCont
 {
 display:block;
 margin-bottom: 4px;
 }
+
 .timer {
   display: block;
   margin-bottom: 4px;
@@ -92,7 +88,6 @@ margin-bottom: 4px;
   to{width: 100%}
 
 }
-
 
 
 .login {
@@ -156,10 +151,6 @@ margin-bottom: 4px;
 }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 80b300b5ab841378dfe4b25bc2838179fc8ecb27
 
 .text-score {
   font-size: 50px;
@@ -168,38 +159,22 @@ margin-bottom: 4px;
   color: white;
 }
 
-<<<<<<< HEAD
 
-
-
-
-
-
-
-
-=======
-
-
-
->>>>>>> 80b300b5ab841378dfe4b25bc2838179fc8ecb27
 .bodystartQuiz {
 
   text-align: center;
   margin-top: 40px;
-  border: black solid 2px;
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #gotoFrage {
-  background-color: #e83e8c;
+  background-color: #007bff;
   margin-top: 40px;
   display: inline-block;
-
-
-
 }
+
 .schriftstartquiz {
 
   color: white;
