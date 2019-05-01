@@ -2,8 +2,9 @@
 
 class GameModel
 {
-	public static function saveScoreAndAttempts($userid, $quizID, $score, $time)
+	public static function saveScore($userid, $quizID, $score, $time)
 	{
+        //Setze werte, die wir übergeben haben in die DB
 		$db = new Database();
 
 		//prevent SQL Injection:

@@ -3,11 +3,6 @@ body {
   min-height: 800px;
 }
 
-/* line 8, ../scss/style.scss */
-.scoreNav {
-  padding-left: 14%;
-}
-
 /* line 12, ../scss/style.scss */
 .quizWahl {
   background-color: white;

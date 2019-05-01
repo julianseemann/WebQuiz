@@ -11,7 +11,6 @@ class transitionController extends Controller
 
 	public function run()
 	{
-		$this->view->username = $this->user->username;
 
                   $this->checkForSaveScorePost();
 	}
@@ -19,6 +18,8 @@ class transitionController extends Controller
 
 	private function checkForSaveScorePost()
 	{
+            //entpacke den Post, den wir am Ende des Quiz übergeben haben , speicher die Variablen seiner
+            //JSON und übergib ihn an die funktion GameModel.saveScore
 		if(isset($_POST['action']) && $_POST['action'] == 'saveScore')
 		{
 			$score = $_POST['score'];
@@ -27,7 +28,7 @@ class transitionController extends Controller
 			$userid = $this->user->id;
 
 			//now we need our Model to save the values
-			GameModel::saveScoreAndAttempts($userid,$quizID, $score, $time); //:: ist only working when we define a Method as static. That means one can use the method without instanciating an object
+			GameModel::saveScore($userid,$quizID, $score, $time); //:: ist only working when we define a Method as static. That means one can use the method without instanciating an object
 			//normally we would first make a new object like so:
 			//$gameObj = new GameModel();
 			//$gameObj->saveScoreAndAttempts($userid, $score, $attempts);

@@ -11,12 +11,7 @@ class scoreBoardController extends Controller
 
 	public function run()
 	{
-		$this->view->username = $this->user->username;
-		$quiz=$this->giveID();
-		$this->view->scores =$quiz;//retrieveBoard::getScores($quiz);
-
-
-
+		$this->giveID();
 	}
 
     /**
@@ -24,26 +19,19 @@ class scoreBoardController extends Controller
      */
 		 private function giveID()
 	 	{
-			$quiz=null;
+                    //nehme argumente von der JSON die wir gepostet haben
+                    //fütter retrieveBoard.getScores mit dem Element im Feld quizID
+                    //speicher seine Antwort als einen JSON array
+                    //Schick ihn an unseren Javascript zurück
 	 		if(isset($_POST['action']) && $_POST['action'] == 'getScore')
 	 		{
 				$quiz=$_POST['quizID'];
 				$result=retrieveBoard::getScores($quiz);
 				$processed=json_encode($result);
-	 			//now we need our Model to save the values
-	 		  //:: ist only working when we define a Method as static. That means one can use the method without instanciating an object
-	 			//normally we would first make a new object like so:
-				//$this->view->scores =$this->user->username;
-	 			//$gameObj = new GameModel();
-	 			//$gameObj->saveScoreAndAttempts($userid, $score, $attempts);
-	 			//but if a method is defined as static - it can be used directly like a function
-
-	 			//finally send a JSON message that we saved the values...
 	 			$jsonResponse = new JSON();
-	 			$jsonResponse->result = true; //this is important, as the frontend expects result true if everything was ok
-	 			$jsonResponse->setMessage($processed); //(optional)
+	 			$jsonResponse->result = true; 
+	 			$jsonResponse->setMessage($processed);
 	 			$jsonResponse->send();
 	 		}
-			return $quiz;
 		}
 }

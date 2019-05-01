@@ -2,7 +2,7 @@
 echo $this->header;
 ?>
 <body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script src="js/scoreboard.js" type="text/javascript">
 </script>
 <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
