@@ -51,7 +51,7 @@ $(document).ready(function()
 			{
 				//wenn angecklickt wollen wir wissen ob richtig oder falsch angeklickt 
 				//und in welcher zeit ebenso wollen wir dass der nutzer anklickt also
-				//cheater=false
+				//ob sein verhalten unserer Vorstellung entspricht... also cheater=false
 				//wenn angeklickt ... nutzer auf transition umgeleitet
 				var stop = new Date().getTime(); //nehme endzeit auf
 
@@ -85,14 +85,7 @@ $(document).ready(function()
 		{
 			//Berechne score in abhänigigkeit von Zeit... score=p, zeit=t: p=900-(t/10)*(700/1500)
 			//console.log(score-(((stop-start)/10)*(score/1500)));
-			if(end<15000)
-			{
-				score=score-((end/10)*((score-200)/1500));
-			}
-			else
-			{
-				score=0;
-			}
+			score=score-((end/10)*((score-200)/1500));
 			setScore(end);
 		}
 		function setScore(end)
