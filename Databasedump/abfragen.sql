@@ -35,6 +35,7 @@ INSERT INTO `user` (`id`, `name`, `password`) VALUES
 (4, 'Dorie', '$2y$10$7lE/IB7FtsLch76Eqzc4Oe/5nfGbZNsKFm1w21eaNlKuGHVi7..Di'),
 (5, 'test', '$2y$10$7Z3Iq0Zl.WIiNH7t8bk39OYVp3T6ICb2dF7yYAhhEaUMiFKbh3apq');
 
+insert into scoreboard(quizID,userId,score,compleTime) values ('quiz1','3',3000,43000),('quiz2','4',5000,33000),('quiz1','4',7000,38000),('quiz1','2',7300,38200),('quiz3','1',500,2000),('quiz3','3',8000,42000),('quiz3','4',11500,12000),('quiz3','4',5000,82000);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

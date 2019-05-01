@@ -11,7 +11,7 @@
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<?php if($this->current == "login"): ?>
 		<link href="css/toastr.min.css" rel="stylesheet">
-		<link href="../../scss/style.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 
 	<?php endif; ?>
 
@@ -31,7 +31,7 @@
 	<?php endif; ?>
 
 </head>
-<body>
+<body class="loginbody">
 <header>
 	<div class="inner">
 		<div class="logo">

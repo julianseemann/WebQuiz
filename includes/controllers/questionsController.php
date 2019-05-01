@@ -7,11 +7,9 @@ class questionsController extends Controller
 {
 	protected $viewFileName = "questions"; //this will be the View that gets the data...
 	protected $loginRequired = true;
-
-
-	public function run()
-	{
-		$this->view->username = $this->user->username;
+public function run()
+	{		
 	}
 
 }
+

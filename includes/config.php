@@ -1,5 +1,5 @@
 <?php
-define('URL_PATH', '/baseproject2');
+define('URL_PATH', '/WebQuiz');
 
 define('LOGIN_URL', 'login');
 define('LOGOUT_URL', 'logout');

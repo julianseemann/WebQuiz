@@ -5,7 +5,6 @@
  */
 jQuery(document).ready(function() {
 
-
     var registerModal = $('#registerModal');
 
     $('.registerOverlay').click(function(e) {
