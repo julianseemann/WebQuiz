@@ -1,7 +1,7 @@
 <?php
 echo $this->header;
 ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-sticky">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <h1 class="navbar-brand">WebQuiz</h1>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">

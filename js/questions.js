@@ -69,7 +69,7 @@ $(document).ready(function()
 			//console.log(score-(((stop-start)/10)*(score/1500)));
 			if(end<15000)
 			{
-				score=score-((end/10)*(score/1500));
+				score=score-((end/10)*((score-200)/1500));
 			}
 			else
 			{

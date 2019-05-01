@@ -5,13 +5,7 @@ echo $this->header;
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/scoreboard.js" type="text/javascript">
 </script>
-<style>
-    html {
-  overflow-y: overlay;
-}
-</style>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
   <h1 class="navbar-brand">WebQuiz</h1>
   <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
