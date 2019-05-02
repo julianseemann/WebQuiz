@@ -62,7 +62,21 @@ body {
   color: white;
 }
 
-/* line 65, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
+.btnSizetrans {
+  width: 49.6%;
+  height: 120px;
+  border: black solid 3px;
+  display: inline-block;
+  background-color: #007bff;
+  position: center;
+  font-size: 10mm;
+  text-align: center;
+  color: white;
+  margin-left: 2px;
+}
+
+/* line 78, ../scss/style.scss */
 .QuestionSqaure {
   width: auto;
   height: 240px;
@@ -71,13 +85,13 @@ body {
   margin-bottom: 4px;
 }
 
-/* line 73, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .btnCont {
   display: block;
   margin-bottom: 4px;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .timer {
   display: block;
   margin-bottom: 4px;
@@ -97,12 +111,12 @@ body {
     width: 100%;
   }
 }
-/* line 95, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 .login {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
 }
 
-/* line 100, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .text-centerquiz {
   font-size: 15mm;
   text-align: center;
@@ -110,7 +124,7 @@ body {
   color: white;
 }
 
-/* line 109, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .text-centerscoreboard {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   text-align: center;
@@ -121,7 +135,7 @@ body {
   font-size: 50px;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 .text-centerscoreresult {
   background-color: white;
   text-align: center;
@@ -133,7 +147,7 @@ body {
   font-size: 18px;
 }
 
-/* line 133, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 .quizlistebody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -143,7 +157,11 @@ body {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 145, ../scss/style.scss */
+=======
+/* line 157, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 .scorebordbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -153,7 +171,11 @@ body {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 155, ../scss/style.scss */
+=======
+/* line 167, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 xt-score {
   font-size: 50px;
   text-align: center;
@@ -161,7 +183,11 @@ xt-score {
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 162, ../scss/style.scss */
+=======
+/* line 174, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
@@ -170,55 +196,91 @@ xt-score {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 171, ../scss/style.scss */
+=======
+/* line 183, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 #gotoFrage {
   background-color: #007bff;
   margin-top: 40px;
   display: inline-block;
 }
 
+<<<<<<< HEAD
 /* line 177, ../scss/style.scss */
+=======
+/* line 189, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 .schriftstartquiz {
   color: white;
   overflow: hidden;
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* line 184, ../scss/style.scss */
+=======
+/* line 195, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 .bodytransition {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 190, ../scss/style.scss */
+=======
+/* line 201, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 198, ../scss/style.scss */
+=======
+/* line 209, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 #FertigPunkte {
   color: red;
 }
 
+<<<<<<< HEAD
 /* line 204, ../scss/style.scss */
+=======
+/* line 215, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 #FertigZeit {
   color: greenyellow;
 }
 
+<<<<<<< HEAD
 /* line 207, ../scss/style.scss */
+=======
+/* line 218, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 #Antwortszeit {
   color: #1c7430;
 }
 
+<<<<<<< HEAD
 /* line 210, ../scss/style.scss */
+=======
+/* line 221, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 #Punkte {
   color: #007bff;
 }
 
+<<<<<<< HEAD
 /* line 214, ../scss/style.scss */
+=======
+/* line 225, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 .loginbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
@@ -226,14 +288,22 @@ xt-score {
   position: absolute;
 }
 
+<<<<<<< HEAD
 /* line 224, ../scss/style.scss */
+=======
+/* line 232, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 .namelogin {
   color: white;
   text-align: center;
   font-size: 80px;
 }
 
+<<<<<<< HEAD
 /* line 231, ../scss/style.scss */
+=======
+/* line 238, ../scss/style.scss */
+>>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
 #title {
   font-size: 70px;
   color: white;

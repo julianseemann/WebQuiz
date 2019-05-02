@@ -49,8 +49,7 @@ min-height: 800px;
 }
 
 
-.btnSize
-{
+.btnSize {
   width: 49.6%;
   height: 120px;
   border: black solid 3px;
@@ -60,8 +59,22 @@ min-height: 800px;
   font-size: 10mm;
   text-align: center;
   color: white;
-
 }
+
+.btnSizetrans {
+  width: 49.6%;
+  height: 120px;
+  border: black solid 3px;
+  display: inline-block;
+  background-color: #007bff;
+  position: center;
+  font-size: 10mm;
+  text-align: center;
+  color: white;
+  margin-left: 2px;
+
+  }
+
 .QuestionSqaure
 {
   width:auto;
