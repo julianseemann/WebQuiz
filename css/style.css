@@ -1,303 +1,51 @@
-@charset "UTF-8";
-/* line 4, ../scss/style.scss */
-body {
-  min-height: 800px;
-}
+/*
+Error: Invalid CSS after "...t-align: center": expected "{", was ";"
+        on line 273 of C:/xampp/htdocs/WebQuiz/scss/style.scss
 
-/* line 8, ../scss/style.scss */
-.scoreNav {
-  padding-left: 14%;
-}
+268: 
+269: #title {
+270:   font-size: 50px;
+271:   color: white;
+272: <<<<<<< HEAD
+273:   text-align: center;
+274: }
+275: 
+276:   #gotoFrage {
+277:     background-color: #007bff;
+278:     margin-top: 40px;
 
-/* line 12, ../scss/style.scss */
-.quizWahl {
-  background-color: white;
-}
-
-/* line 16, ../scss/style.scss */
-.quizWahl:hover {
-  background-color: gainsboro;
-}
-
-/* line 20, ../scss/style.scss */
-.inputArea {
-  margin-top: 10%;
-}
-
-/* line 25, ../scss/style.scss */
-.questionArea {
-  position: relative;
-  color: #171a1d;
-}
-
-/* line 31, ../scss/style.scss */
-.QuestionBox {
-  margin-top: 8%;
-  height: auto;
-  width: auto;
-  margin-left: 30%;
-  margin-right: 30%;
-  display: block;
-}
-
-/* line 41, ../scss/style.scss */
-.table {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: collapse;
-  border-spacing: 70px;
-}
-
-/* line 52, ../scss/style.scss */
-.btnSize {
-  width: 49.6%;
-  height: 120px;
-  border: black solid 3px;
-  display: inline-block;
-  background-color: #007bff;
-  position: center;
-  font-size: 10mm;
-  text-align: center;
-  color: white;
-}
-
-/* line 64, ../scss/style.scss */
-.btnSizetrans {
-  width: 49.6%;
-  height: 120px;
-  border: black solid 3px;
-  display: inline-block;
-  background-color: #007bff;
-  position: center;
-  font-size: 10mm;
-  text-align: center;
-  color: white;
-  margin-left: 2px;
-}
-
-/* line 77, ../scss/style.scss */
-.btnSizetra {
-  width: 49.6%;
-  height: 120px;
-  border: black solid 3px;
-  background-color: #007bff;
-  position: center;
-  font-size: 10mm;
-  text-align: center;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: auto;
-  margin: auto;
-}
-
-.btnSizeend {
-  width: 49.6%;
-  height: 120px;
-  border: black solid 3px;
-  background-color: #007bff;
-  position: center;
-  font-size: 10mm;
-  text-align: center;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: auto;
-  margin: auto;
-}
-
-/* line 94, ../scss/style.scss */
-.QuestionSqaure {
-  width: auto;
-  height: 240px;
-  border: black solid 2px;
-  position: relative;
-  margin-bottom: 4px;
-}
-
-/* line 102, ../scss/style.scss */
-.btnCont {
-  display: block;
-  margin-bottom: 4px;
-}
-
-/* line 107, ../scss/style.scss */
-.timer {
-  display: block;
-  margin-bottom: 4px;
-  height: 30px;
-  border: black solid 2px;
-  animation: fortschritt 15s steps(5000);
-  /*so viele steps da es dann aussieht als w├ñre es ein durchlaufender Zeitstrahl */
-  background-color: #e83e8c;
-}
-
-@keyframes fortschritt {
-  /*Animation f├╝r den Zeitstrahl in welchen Bereich er sich bewegen soll */
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-/* line 124, ../scss/style.scss */
-.login {
-  background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
-}
-
-/* line 129, ../scss/style.scss */
-.text-centerquiz {
-  font-size: 15mm;
-  text-align: center;
-  background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
-  color: white;
-}
-
-/* line 138, ../scss/style.scss */
-.text-centerscoreboard {
-  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  text-align: center;
-  padding: 50px;
-  margin-top: 30px;
-  background-size: cover;
-  color: white;
-  font-size: 50px;
-}
-
-/* line 149, ../scss/style.scss */
-.text-centerscoreresult {
-  background-color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  background-size: cover;
-  color: black;
-  font-size: 18px;
-}
-
-/* line 162, ../scss/style.scss */
-.quizlistebody {
-  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  margin-right: auto;
-  margin-left: auto;
-  padding: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 173, ../scss/style.scss */
-.scorebordbody {
-  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  margin-right: auto;
-  margin-left: auto;
-  padding: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 183, ../scss/style.scss */
-xt-score {
-  font-size: 50px;
-  text-align: center;
-  background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
-  color: white;
-}
-
-/* line 190, ../scss/style.scss */
-.bodystartQuiz {
-  text-align: center;
-  margin-top: 40px;
-  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 199, ../scss/style.scss */
-#gotoFrage {
-  background-color: #007bff;
-  margin-top: 40px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-/* line 205, ../scss/style.scss */
-.schriftstartquiz {
-  color: white;
-  overflow: hidden;
-}
-
-/* line 211, ../scss/style.scss */
-.bodytransition {
-  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 217, ../scss/style.scss */
-.bodyquestions {
-  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 225, ../scss/style.scss */
-#FertigPunkte {
-  color: red;
-  text-align: center;
-  font-size: 30px;
-}
-
-/* line 232, ../scss/style.scss */
-#FertigZeit {
-  color: greenyellow;
-  text-align: center;
-  font-size: 30px;
-}
-
-/* line 237, ../scss/style.scss */
-#Antwortszeit {
-  color: #1c7430;
-  text-align: center;
-  font-size: 30px;
-}
-
-/* line 242, ../scss/style.scss */
-#Punkte {
-  color: #007bff;
-  text-align: center;
-  font-size: 30px;
-}
-
-/* line 248, ../scss/style.scss */
-.loginbody {
-  background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 255, ../scss/style.scss */
-.namelogin {
-  color: white;
-  text-align: center;
-  font-size: 70px;
-}
-
-/* line 261, ../scss/style.scss */
-#title {
-  font-size: 50px;
-  color: white;
-  text-align: center;
-}
-
-/* line 267, ../scss/style.scss */
-#gotoFrage {
-  background-color: #007bff;
-  margin-top: 40px;
-  text-align: center;
-}
+Backtrace:
+C:/xampp/htdocs/WebQuiz/scss/style.scss:273
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...t-align: center\": expected \"{\", was \";\"\A         on line 273 of C:/xampp/htdocs/WebQuiz/scss/style.scss\A \A 268: \A 269: #title {\A 270:   font-size: 50px;\A 271:   color: white;\A 272: <<<<<<< HEAD\A 273:   text-align: center;\A 274: }\A 275: \A 276:   #gotoFrage {\A 277:     background-color: #007bff;\A 278:     margin-top: 40px;"; }

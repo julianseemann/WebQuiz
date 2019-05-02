@@ -25,7 +25,7 @@ min-height: 800px;
 .questionArea
 {
 
-  position: relative;
+  position: absolute;
   color: #171a1d;
 }
 .QuestionBox
@@ -168,6 +168,7 @@ margin-bottom: 4px;
   background-repeat: no-repeat;
   background-size: cover;
 
+
 }
 
 .scorebordbody {
@@ -206,6 +207,7 @@ xt-score {
 
   color: white;
   overflow: hidden;
+  text-align: center;
 }
 
 .bodytransition {
@@ -250,17 +252,24 @@ xt-score {
   background-image:url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+
+
 }
 
 .namelogin {
   color : white;
  text-align: center;
-  font-size: 70px;
+  font-size: 80px;
+  position: fixed;
+  margin-left: 40%;
+
 }
 
 #title {
   font-size: 50px;
   color: white;
+<<<<<<< HEAD
   text-align: center;
 }
 
@@ -269,4 +278,24 @@ xt-score {
     margin-top: 40px;
     text-align: center;
   }
+=======
+}
+
+.row {
+  margin-top: 120px;
+
+
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-left: 4%;
+  position: fixed; /*da sonst bei Anmeldung sich der Btn bewegt hat */
+}
+
+
+
+
+
+
+
+>>>>>>> dcad63d2fdb57d593155fb4bde63f7028a6eddba
 
