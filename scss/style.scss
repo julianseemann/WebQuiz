@@ -72,8 +72,24 @@ min-height: 800px;
   text-align: center;
   color: white;
   margin-left: 2px;
-
   }
+
+.btnSizetra {
+  width: 49.6%;
+  height: 120px;
+  border: black solid 3px;
+  background-color: #007bff;
+  position: center;
+  font-size: 10mm;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  marginleft: 10px;
+}
+
+
 
 .QuestionSqaure
 {
@@ -209,17 +225,24 @@ xt-score {
 #FertigPunkte {
 
   color:red;
-
+  text-align: center;
+  font-size: 30px;
 }
 
 #FertigZeit {
   color: greenyellow;
+  text-align: center;
+  font-size: 30px;
 }
 #Antwortszeit{
   color: #1c7430;
+  text-align: center;
+  font-size: 30px;
 }
 #Punkte {
   color: #007bff;
+  text-align: center;
+  font-size: 30px;
 }
 
 .loginbody {
@@ -236,6 +259,14 @@ xt-score {
 }
 
 #title {
-  font-size: 70px;
+  font-size: 50px;
   color: white;
+  text-align: center;
 }
+
+  #gotoFrage {
+    background-color: #007bff;
+    margin-top: 40px;
+    text-align: center;
+  }
+

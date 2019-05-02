@@ -39,9 +39,9 @@ $(document).ready(function()
 				$('#FertigPunkte').append("insgesamt hast du "+parseInt(scoreSum)+" Punkte erreicht");
 				$("#Antwortszeit").append('Die letzte Frage hast du in '+parseInt(time/100)/10+" s"+" geantwortet");
 				$("#Punkte").append(" Bei der letzten Frage hast du "+parseInt(score)+" erreicht");
-				$('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
-				$('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
-				$('.QuestionBox').append('<br><btn id="scoreboard" class="btn btnSize ">Zum Scoreboard</btn>');
+				$('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSizeend ">Neu Starten</btn>');
+				$('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSizeend ">Zurück zur Quizliste</btn>');
+				$('.QuestionBox').append('<br><btn id="scoreboard" class="btn btnSizeend ">Zum Scoreboard</btn>');
 				$("#gotoFrage").remove();
 
                             
