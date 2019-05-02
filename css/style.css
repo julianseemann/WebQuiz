@@ -205,34 +205,34 @@ xt-score {
   background-size: cover;
 }
 
-/* line 203, ../scss/style.scss */
+/* line 204, ../scss/style.scss */
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 211, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 #FertigPunkte {
   color: red;
 }
 
-/* line 217, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 #FertigZeit {
   color: greenyellow;
 }
 
-/* line 220, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 #Antwortszeit {
   color: #1c7430;
 }
 
-/* line 223, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 #Punkte {
   color: #007bff;
 }
 
-/* line 227, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .loginbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
@@ -240,7 +240,7 @@ xt-score {
   position: absolute;
 }
 
-/* line 237, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 .namelogin {
   color: white;
   text-align: center;
@@ -249,13 +249,13 @@ xt-score {
   margin-left: 40%;
 }
 
-/* line 246, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 #title {
   font-size: 70px;
   color: white;
 }
 
-/* line 251, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 .row {
   margin-top: 120px;
   margin-left: 25%;
