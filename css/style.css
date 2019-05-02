@@ -40,7 +40,7 @@ body {
   display: block;
 }
 
-/* line 44, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 .table {
   margin-top: 30px;
   margin-left: auto;
@@ -49,7 +49,7 @@ body {
   border-spacing: 70px;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .btnSize {
   width: 49.6%;
   height: 120px;
@@ -62,7 +62,7 @@ body {
   color: white;
 }
 
-/* line 70, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .QuestionSqaure {
   width: auto;
   height: 240px;
@@ -71,13 +71,13 @@ body {
   margin-bottom: 4px;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 .btnCont {
   display: block;
   margin-bottom: 4px;
 }
 
-/* line 83, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
 .timer {
   display: block;
   margin-bottom: 4px;
@@ -97,12 +97,12 @@ body {
     width: 100%;
   }
 }
-/* line 102, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .login {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
 }
 
-/* line 108, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 .text-centerquiz {
   font-size: 15mm;
   text-align: center;
@@ -110,7 +110,7 @@ body {
   color: white;
 }
 
-/* line 117, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 .text-centerscoreboard {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   text-align: center;
@@ -121,7 +121,7 @@ body {
   font-size: 50px;
 }
 
-/* line 128, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .text-centerscoreresult {
   background-color: white;
   text-align: center;
@@ -133,7 +133,7 @@ body {
   font-size: 18px;
 }
 
-/* line 141, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 .quizlistebody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -143,7 +143,7 @@ body {
   background-size: cover;
 }
 
-/* line 152, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .scorebordbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -153,7 +153,7 @@ body {
   background-size: cover;
 }
 
-/* line 162, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 xt-score {
   font-size: 50px;
   text-align: center;
@@ -161,7 +161,7 @@ xt-score {
   color: white;
 }
 
-/* line 170, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
@@ -170,68 +170,68 @@ xt-score {
   background-size: cover;
 }
 
-/* line 179, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 #gotoFrage {
   background-color: #007bff;
   margin-top: 40px;
   display: inline-block;
 }
 
-/* line 185, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 .schriftstartquiz {
   color: white;
   overflow: hidden;
 }
 
-/* line 191, ../scss/style.scss */
+/* line 182, ../scss/style.scss */
 .bodytransition {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 197, ../scss/style.scss */
+/* line 188, ../scss/style.scss */
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 205, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 #FertigPunkte {
   color: red;
 }
 
-/* line 211, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 #FertigZeit {
   color: greenyellow;
 }
 
-/* line 214, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 #Antwortszeit {
   color: #1c7430;
 }
 
-/* line 217, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 #Punkte {
   color: #007bff;
 }
 
-/* line 222, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 .loginbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 229, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 .namelogin {
   color: white;
   text-align: center;
   font-size: 70px;
 }
 
-/* line 235, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 #title {
   font-size: 70px;
   color: white;
