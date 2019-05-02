@@ -25,8 +25,8 @@ $(document).ready(function()
                            //den Abruf von isCheater ersparen
 				$('#title').append(" Hey Cheaten geht nicht ");
 				$("#gotoFrage").remove();
-				$('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
-				$('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
+				$('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSizetrans ">Neu Starten</btn>');
+				$('.QuestionBox').append('<btn id="quizlist" class="btn btnSizetrans ">Zurück zur Quizliste</btn>');
 				sessionStorage.removeItem("isCheater");
 				sessionStorage.removeItem("length");
 			}

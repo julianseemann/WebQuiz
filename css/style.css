@@ -62,7 +62,21 @@ body {
   color: white;
 }
 
-/* line 65, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
+.btnSizetrans {
+  width: 49.6%;
+  height: 120px;
+  border: black solid 3px;
+  display: inline-block;
+  background-color: #007bff;
+  position: center;
+  font-size: 10mm;
+  text-align: center;
+  color: white;
+  margin-left: 2px;
+}
+
+/* line 78, ../scss/style.scss */
 .QuestionSqaure {
   width: auto;
   height: 240px;
@@ -71,13 +85,13 @@ body {
   margin-bottom: 4px;
 }
 
-/* line 73, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .btnCont {
   display: block;
   margin-bottom: 4px;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .timer {
   display: block;
   margin-bottom: 4px;
@@ -97,12 +111,12 @@ body {
     width: 100%;
   }
 }
-/* line 95, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 .login {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
 }
 
-/* line 100, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .text-centerquiz {
   font-size: 15mm;
   text-align: center;
@@ -110,7 +124,7 @@ body {
   color: white;
 }
 
-/* line 109, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .text-centerscoreboard {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   text-align: center;
@@ -121,7 +135,7 @@ body {
   font-size: 50px;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 .text-centerscoreresult {
   background-color: white;
   text-align: center;
@@ -133,7 +147,7 @@ body {
   font-size: 18px;
 }
 
-/* line 133, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 .quizlistebody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -143,7 +157,7 @@ body {
   background-size: cover;
 }
 
-/* line 144, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 .scorebordbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -153,7 +167,7 @@ body {
   background-size: cover;
 }
 
-/* line 154, ../scss/style.scss */
+/* line 167, ../scss/style.scss */
 xt-score {
   font-size: 50px;
   text-align: center;
@@ -161,7 +175,7 @@ xt-score {
   color: white;
 }
 
-/* line 161, ../scss/style.scss */
+/* line 174, ../scss/style.scss */
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
@@ -170,68 +184,68 @@ xt-score {
   background-size: cover;
 }
 
-/* line 170, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 #gotoFrage {
   background-color: #007bff;
   margin-top: 40px;
   display: inline-block;
 }
 
-/* line 176, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .schriftstartquiz {
   color: white;
   overflow: hidden;
 }
 
-/* line 182, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 .bodytransition {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 188, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 196, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
 #FertigPunkte {
   color: red;
 }
 
-/* line 202, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 #FertigZeit {
   color: greenyellow;
 }
 
-/* line 205, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 #Antwortszeit {
   color: #1c7430;
 }
 
-/* line 208, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 #Punkte {
   color: #007bff;
 }
 
-/* line 212, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .loginbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 219, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 .namelogin {
   color: white;
   text-align: center;
   font-size: 70px;
 }
 
-/* line 225, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 #title {
   font-size: 70px;
   color: white;
