@@ -15,5 +15,6 @@ $.getJSON( "JSON/question.json", function( json )
 			{
 				//setze den Entsprechenden Quiztitel
 				$("#title").append(title);
+                                    $('.btnSize').click( function() {window.location='questions'});
 			});
 	});

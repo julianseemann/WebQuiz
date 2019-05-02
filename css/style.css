@@ -26,18 +26,19 @@ body {
 
 /* line 25, ../scss/style.scss */
 .questionArea {
-  position: absolute;
+  position: relative;
+  vertical-align: middle;
+  display: table-cell;
   color: #171a1d;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 32, ../scss/style.scss */
 .QuestionBox {
   margin-top: 8%;
   height: auto;
   width: auto;
   margin-left: 30%;
   margin-right: 30%;
-  display: block;
 }
 
 /* line 41, ../scss/style.scss */
@@ -49,7 +50,12 @@ body {
   border-spacing: 70px;
 }
 
-/* line 52, ../scss/style.scss */
+/* line 50, ../scss/style.scss */
+#quizlist {
+  right: 0px;
+}
+
+/* line 55, ../scss/style.scss */
 .btnSize {
   width: 49.6%;
   height: 120px;
@@ -57,12 +63,18 @@ body {
   display: inline-block;
   background-color: #007bff;
   position: center;
-  font-size: 10mm;
+  font-size: 18pt;
   text-align: center;
   color: white;
+  border-radius: 4px;
 }
 
-/* line 64, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
+.btnSize:hover {
+  background-color: #42c5f4;
+}
+
+/* line 71, ../scss/style.scss */
 .btnSizetrans {
   width: 49.6%;
   height: 120px;
@@ -76,34 +88,37 @@ body {
   margin-left: 2px;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .QuestionSqaure {
-  width: auto;
+  width: 100%;
+  font-size: 15pt;
   height: 240px;
   border: black solid 2px;
   position: relative;
   margin-bottom: 4px;
+  display: table;
+  border-spacing: 15px;
 }
 
-/* line 86, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .btnCont {
   display: block;
   margin-bottom: 4px;
 }
 
-/* line 91, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .timer {
   display: block;
   margin-bottom: 4px;
   height: 30px;
   border: black solid 2px;
   animation: fortschritt 15s steps(5000);
-  /*so viele steps da es dann aussieht als w├ñre es ein durchlaufender Zeitstrahl */
-  background-color: #e83e8c;
+  /*so viele steps da es dann aussieht als wäre es ein durchlaufender Zeitstrahl */
+  background-color: crimson;
 }
 
 @keyframes fortschritt {
-  /*Animation f├╝r den Zeitstrahl in welchen Bereich er sich bewegen soll */
+  /*Animation für den Zeitstrahl in welchen Bereich er sich bewegen soll */
   from {
     width: 0%;
   }
@@ -111,12 +126,12 @@ body {
     width: 100%;
   }
 }
-/* line 108, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 .login {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
 }
 
-/* line 113, ../scss/style.scss */
+/* line 123, ../scss/style.scss */
 .text-centerquiz {
   font-size: 15mm;
   text-align: center;
@@ -124,7 +139,7 @@ body {
   color: white;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 .text-centerscoreboard {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   text-align: center;
@@ -135,7 +150,7 @@ body {
   font-size: 50px;
 }
 
-/* line 133, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
 .text-centerscoreresult {
   background-color: white;
   text-align: center;
@@ -147,7 +162,7 @@ body {
   font-size: 18px;
 }
 
-/* line 146, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .quizlistebody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -157,7 +172,7 @@ body {
   background-size: cover;
 }
 
-/* line 158, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 .scorebordbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -167,7 +182,7 @@ body {
   background-size: cover;
 }
 
-/* line 168, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 xt-score {
   font-size: 50px;
   text-align: center;
@@ -175,7 +190,7 @@ xt-score {
   color: white;
 }
 
-/* line 175, ../scss/style.scss */
+/* line 185, ../scss/style.scss */
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
@@ -184,55 +199,48 @@ xt-score {
   background-size: cover;
 }
 
-/* line 184, ../scss/style.scss */
-#gotoFrage {
-  background-color: #007bff;
-  margin-top: 40px;
-  display: inline-block;
-}
-
-/* line 190, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .schriftstartquiz {
   color: white;
   overflow: hidden;
   text-align: center;
 }
 
-/* line 197, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .bodytransition {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 204, ../scss/style.scss */
+/* line 207, ../scss/style.scss */
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 212, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 #FertigPunkte {
   color: red;
 }
 
-/* line 218, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 #FertigZeit {
   color: greenyellow;
 }
 
-/* line 221, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 #Antwortszeit {
   color: #1c7430;
 }
 
-/* line 224, ../scss/style.scss */
+/* line 227, ../scss/style.scss */
 #Punkte {
   color: #007bff;
 }
 
-/* line 228, ../scss/style.scss */
+/* line 231, ../scss/style.scss */
 .loginbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
@@ -240,7 +248,7 @@ xt-score {
   position: absolute;
 }
 
-/* line 238, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 .namelogin {
   color: white;
   text-align: center;
@@ -249,13 +257,18 @@ xt-score {
   margin-left: 40%;
 }
 
-/* line 247, ../scss/style.scss */
+/* line 249, ../scss/style.scss */
+.maxWidth {
+  width: 100%;
+}
+
+/* line 253, ../scss/style.scss */
 #title {
   font-size: 70px;
   color: white;
 }
 
-/* line 252, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .row {
   margin-top: 120px;
   margin-left: 25%;

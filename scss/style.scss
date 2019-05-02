@@ -24,8 +24,9 @@ body
 }
 .questionArea
 {
-
-  position: absolute;
+position:relative;
+  vertical-align: middle;
+  display: table-cell;   
   color: #171a1d;
 }
 .QuestionBox
@@ -35,7 +36,6 @@ body
   width:auto;
   margin-left: 30%;
   margin-right: 30%;
-  display:block;
 
 }
 .table
@@ -47,7 +47,10 @@ body
   border-spacing: 70px;
 
 }
-
+#quizlist
+{
+right: 0px;
+}
 
 .btnSize {
   width: 49.6%;
@@ -56,11 +59,15 @@ body
   display: inline-block;
   background-color: #007bff;
   position: center;
-  font-size: 10mm;
+  font-size: 18pt;
   text-align: center;
   color: white;
+  border-radius: 4px;
 }
-
+.btnSize:hover
+{
+ background-color:#42c5f4;
+}
 .btnSizetrans {
   width: 49.6%;
   height: 120px;
@@ -77,11 +84,14 @@ body
 
 .QuestionSqaure
 {
-  width:auto;
+  width:100%;
+  font-size:15pt;
   height: 240px;
   border: black solid 2px;
   position: relative;
   margin-bottom: 4px;
+   display: table;
+   border-spacing:15px;
 }
 .btnCont
 {
@@ -94,7 +104,7 @@ body
   height: 30px;
   border: black solid 2px;
   animation: fortschritt 15s steps(5000); /*so viele steps da es dann aussieht als wäre es ein durchlaufender Zeitstrahl */
-  background-color: #e83e8c;
+  background-color: crimson;
 
 
 }
@@ -180,13 +190,6 @@ xt-score {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#gotoFrage {
-  background-color: #007bff;
-  margin-top: 40px;
-  display: inline-block;
-}
-
 .schriftstartquiz {
 
   color: white;
@@ -243,7 +246,10 @@ xt-score {
   margin-left: 40%;
 
 }
-
+.maxWidth
+{
+width:100%;
+}
 #title {
   font-size: 70px;
   color: white;
@@ -258,5 +264,4 @@ xt-score {
   padding-left: 4%;
   position: fixed; /*da sonst bei Anmeldung sich der Btn bewegt hat */
 }
-
 

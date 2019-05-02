@@ -25,8 +25,8 @@ $(document).ready(function()
 			//den Abruf von isCheater ersparen
 			$('#title').append(" Hey Cheaten geht nicht ");
 			$("#gotoFrage").remove();
-			$('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSizetrans ">Neu Starten</btn>');
-			$('.QuestionBox').append('<btn id="quizlist" class="btn btnSizetrans ">Zurück zur Quizliste</btn>');
+			$('.QuestionBox').append('<br><button type="button" id="neustarten" class=" btnSize">Neu Starten</button>');
+			$('.QuestionBox').append('<button type="button" id="quizlist" class=" btnSize" style="float:right">Zurück zur Quizliste</button>');
 			sessionStorage.removeItem("isCheater");
 			sessionStorage.removeItem("length");
 		}
@@ -39,9 +39,8 @@ $(document).ready(function()
 			$('#FertigPunkte').append("insgesamt hast du "+parseInt(scoreSum)+" Punkte erreicht");
 			$("#Antwortszeit").append('Die letzte Frage hast du in '+parseInt(time/100)/10+" s"+" geantwortet");
 			$("#Punkte").append(" Bei der letzten Frage hast du "+parseInt(score)+" erreicht");
-			$('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
-			$('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');
-			$('.QuestionBox').append('<br><btn id="scoreboard" class="btn btnSize ">Zum Scoreboard</btn>');
+			$('.QuestionBox').append('<div class="btnCont" ><button type="button" id="neustarten" class="btnSize" style="float:right">Neu Starten</button><button type="button" id="quizlist" class="btnSize">Zurück zur Quizliste</button></div>');
+			$('.QuestionBox').append('<button type="button" id="scoreboard" class="btnSize maxWidth">Zum Scoreboard</button>');
 			$("#gotoFrage").remove();
 
 

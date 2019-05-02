@@ -4,10 +4,10 @@ echo $this->header;
 <body class="bodyquestions">
 
 <div class="QuestionBox text-center">
-  <div class="QuestionSqaure">
-    <h1 class="text-center questionArea"></h1>
+  <div class="QuestionSqaure card">
+    <p class="text-center questionArea"></p>
   </div>
-  <div class="timer">
+  <div class="timer card">
 
     <!-- Umbedingt wichtig !!!! Da brauch ich von jemandem, dass er mir keyframes mit
     transition-timing function linear und transition duration 15s reintut... damit ma sehen,
