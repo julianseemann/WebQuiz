@@ -262,4 +262,5 @@ xt-score {
   margin-right: 25%;
   padding-left: 4%;
   position: fixed;
+  /*da sonst bei Anmeldung sich der Btn bewegt hat */
 }
