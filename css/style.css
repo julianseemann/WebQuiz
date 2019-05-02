@@ -157,11 +157,7 @@ body {
   background-size: cover;
 }
 
-<<<<<<< HEAD
-/* line 145, ../scss/style.scss */
-=======
-/* line 157, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 158, ../scss/style.scss */
 .scorebordbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
@@ -171,11 +167,7 @@ body {
   background-size: cover;
 }
 
-<<<<<<< HEAD
-/* line 155, ../scss/style.scss */
-=======
-/* line 167, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 168, ../scss/style.scss */
 xt-score {
   font-size: 50px;
   text-align: center;
@@ -183,11 +175,7 @@ xt-score {
   color: white;
 }
 
-<<<<<<< HEAD
-/* line 162, ../scss/style.scss */
-=======
-/* line 174, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 175, ../scss/style.scss */
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
@@ -196,91 +184,55 @@ xt-score {
   background-size: cover;
 }
 
-<<<<<<< HEAD
-/* line 171, ../scss/style.scss */
-=======
-/* line 183, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 184, ../scss/style.scss */
 #gotoFrage {
   background-color: #007bff;
   margin-top: 40px;
   display: inline-block;
 }
 
-<<<<<<< HEAD
-/* line 177, ../scss/style.scss */
-=======
-/* line 189, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 190, ../scss/style.scss */
 .schriftstartquiz {
   color: white;
   overflow: hidden;
   text-align: center;
 }
 
-<<<<<<< HEAD
-/* line 184, ../scss/style.scss */
-=======
-/* line 195, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 197, ../scss/style.scss */
 .bodytransition {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-<<<<<<< HEAD
-/* line 190, ../scss/style.scss */
-=======
-/* line 201, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 203, ../scss/style.scss */
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-<<<<<<< HEAD
-/* line 198, ../scss/style.scss */
-=======
-/* line 209, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 211, ../scss/style.scss */
 #FertigPunkte {
   color: red;
 }
 
-<<<<<<< HEAD
-/* line 204, ../scss/style.scss */
-=======
-/* line 215, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 217, ../scss/style.scss */
 #FertigZeit {
   color: greenyellow;
 }
 
-<<<<<<< HEAD
-/* line 207, ../scss/style.scss */
-=======
-/* line 218, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 220, ../scss/style.scss */
 #Antwortszeit {
   color: #1c7430;
 }
 
-<<<<<<< HEAD
-/* line 210, ../scss/style.scss */
-=======
-/* line 221, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 223, ../scss/style.scss */
 #Punkte {
   color: #007bff;
 }
 
-<<<<<<< HEAD
-/* line 214, ../scss/style.scss */
-=======
-/* line 225, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 227, ../scss/style.scss */
 .loginbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
@@ -288,30 +240,26 @@ xt-score {
   position: absolute;
 }
 
-<<<<<<< HEAD
-/* line 224, ../scss/style.scss */
-=======
-/* line 232, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 237, ../scss/style.scss */
 .namelogin {
   color: white;
   text-align: center;
   font-size: 80px;
+  position: fixed;
+  margin-left: 40%;
 }
 
-<<<<<<< HEAD
-/* line 231, ../scss/style.scss */
-=======
-/* line 238, ../scss/style.scss */
->>>>>>> 438705c049cc528a54c05818d607de5a9952b7fa
+/* line 246, ../scss/style.scss */
 #title {
   font-size: 70px;
   color: white;
 }
 
-/* line 236, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .row {
+  margin-top: 120px;
   margin-left: 25%;
   margin-right: 25%;
   padding-left: 4%;
+  position: fixed;
 }

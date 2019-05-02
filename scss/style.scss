@@ -238,6 +238,8 @@ xt-score {
   color : white;
  text-align: center;
   font-size: 80px;
+  position: fixed;
+  margin-left: 40%;
 
 }
 
@@ -247,11 +249,15 @@ xt-score {
 }
 
 .row {
+  margin-top: 120px;
+
 
   margin-left: 25%;
   margin-right: 25%;
   padding-left: 4%;
+  position: fixed;
 }
+
 
 
 
