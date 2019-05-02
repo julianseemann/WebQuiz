@@ -23,7 +23,7 @@ $(document).ready(function()
                             //wenn Spieler Cheater -- verbiete ihn weiter zu spielen
                             //da isCheater immer vor der Anweisung index=0; in den jeweiligen javascripts ausgeführt wird, kann ich mir 
                            //den Abruf von isCheater ersparen
-				$('#title').append(" Hey Cheaten bringt dich nirgendwo");
+				$('#title').append(" Hey Cheaten geht nicht ");
 				$("#gotoFrage").remove();
 				$('.QuestionBox').append('<br><btn id="neustarten" class="btn btnSize ">Neu Starten</btn>');
 				$('.QuestionBox').append('<br><btn id="quizlist" class="btn btnSize ">Zurück zur Quizliste</btn>');

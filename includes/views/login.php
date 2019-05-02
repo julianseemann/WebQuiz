@@ -15,7 +15,7 @@
 
 	<?php endif; ?>
 
-		<link href="css/main.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 
 
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -35,8 +35,8 @@
 <header>
 	<div class="inner">
 		<div class="logo">
-			<div class="name">Adressverwaltung</div>
-			<div class="version">1.0</div>
+			<div class="namelogin">WebQuiz</div>
+			<div class="version"></div>
 		</div>
 
 		<?php if(LOGGED_IN == true): ?>
@@ -68,7 +68,7 @@
 		<?php else: ?>
 			<nav class="mainnav">
 				<ul class="nav nav-pills">
-					<li<?php if($this->current == "login"): ?>class="active"<?php endif; ?>><a href="login">Login</a></li>
+					<li<?php if($this->current == "login"): ?>class="active"<?php endif; ?>><a href="login"></a></li>
 				</ul>
 			</nav>
 		<?php endif; ?>

@@ -1,55 +1,38 @@
 @charset "UTF-8";
-/* line 4, ../scss/style.scss */
 body {
-  min-height: 800px;
-}
+  min-height: 800px; }
 
-/* line 8, ../scss/style.scss */
 .scoreNav {
-  padding-left: 14%;
-}
+  padding-left: 14%; }
 
-/* line 12, ../scss/style.scss */
 .quizWahl {
-  background-color: white;
-}
+  background-color: white; }
 
-/* line 16, ../scss/style.scss */
 .quizWahl:hover {
-  background-color: gainsboro;
-}
+  background-color: gainsboro; }
 
-/* line 20, ../scss/style.scss */
 .inputArea {
-  margin-top: 10%;
-}
+  margin-top: 10%; }
 
-/* line 25, ../scss/style.scss */
 .questionArea {
   position: relative;
-  color: #171a1d;
-}
+  color: #171a1d; }
 
-/* line 31, ../scss/style.scss */
 .QuestionBox {
   margin-top: 8%;
   height: auto;
   width: auto;
   margin-left: 30%;
   margin-right: 30%;
-  display: block;
-}
+  display: block; }
 
-/* line 44, ../scss/style.scss */
 .table {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
-  border-spacing: 70px;
-}
+  border-spacing: 70px; }
 
-/* line 55, ../scss/style.scss */
 .btnSize {
   width: 49.6%;
   height: 120px;
@@ -59,25 +42,19 @@ body {
   position: center;
   font-size: 10mm;
   text-align: center;
-  color: white;
-}
+  color: white; }
 
-/* line 70, ../scss/style.scss */
 .QuestionSqaure {
   width: auto;
   height: 240px;
   border: black solid 2px;
   position: relative;
-  margin-bottom: 4px;
-}
+  margin-bottom: 4px; }
 
-/* line 78, ../scss/style.scss */
 .btnCont {
   display: block;
-  margin-bottom: 4px;
-}
+  margin-bottom: 4px; }
 
-/* line 83, ../scss/style.scss */
 .timer {
   display: block;
   margin-bottom: 4px;
@@ -85,32 +62,23 @@ body {
   border: black solid 2px;
   animation: fortschritt 15s steps(5000);
   /*so viele steps da es dann aussieht als w├ñre es ein durchlaufender Zeitstrahl */
-  background-color: #e83e8c;
-}
+  background-color: #e83e8c; }
 
 @keyframes fortschritt {
   /*Animation f├╝r den Zeitstrahl in welchen Bereich er sich bewegen soll */
   from {
-    width: 0%;
-  }
+    width: 0%; }
   to {
-    width: 100%;
-  }
-}
-/* line 102, ../scss/style.scss */
+    width: 100%; } }
 .login {
-  background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
-}
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png"); }
 
-/* line 108, ../scss/style.scss */
 .text-centerquiz {
   font-size: 15mm;
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
-  color: white;
-}
+  color: white; }
 
-/* line 117, ../scss/style.scss */
 .text-centerscoreboard {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   text-align: center;
@@ -118,10 +86,8 @@ body {
   margin-top: 30px;
   background-size: cover;
   color: white;
-  font-size: 50px;
-}
+  font-size: 50px; }
 
-/* line 128, ../scss/style.scss */
 .text-centerscoreresult {
   background-color: white;
   text-align: center;
@@ -130,109 +96,80 @@ body {
   margin-bottom: 0px;
   background-size: cover;
   color: black;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
-/* line 141, ../scss/style.scss */
 .quizlistebody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
   margin-left: auto;
   padding: 30px;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
-/* line 152, ../scss/style.scss */
 .scorebordbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   margin-right: auto;
   margin-left: auto;
   padding: 30px;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
-/* line 162, ../scss/style.scss */
 xt-score {
   font-size: 50px;
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/aa/49/54/aa4954451f16847cb657e68e5f46538a.jpg");
-  color: white;
-}
+  color: white; }
 
-/* line 170, ../scss/style.scss */
 .bodystartQuiz {
   text-align: center;
   margin-top: 40px;
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
-/* line 179, ../scss/style.scss */
 #gotoFrage {
   background-color: #007bff;
   margin-top: 40px;
-  display: inline-block;
-}
+  display: inline-block; }
 
-/* line 185, ../scss/style.scss */
 .schriftstartquiz {
   color: white;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-/* line 191, ../scss/style.scss */
 .bodytransition {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
-/* line 197, ../scss/style.scss */
 .bodyquestions {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
-/* line 205, ../scss/style.scss */
 #FertigPunkte {
-  color: red;
-}
+  color: red; }
 
-/* line 211, ../scss/style.scss */
 #FertigZeit {
-  color: greenyellow;
-}
+  color: greenyellow; }
 
-/* line 214, ../scss/style.scss */
 #Antwortszeit {
-  color: #1c7430;
-}
+  color: #1c7430; }
 
-/* line 217, ../scss/style.scss */
 #Punkte {
-  color: #007bff;
-}
+  color: #007bff; }
 
-/* line 222, ../scss/style.scss */
 .loginbody {
   background-image: url("https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
-/* line 229, ../scss/style.scss */
 .namelogin {
   color: white;
   text-align: center;
-  font-size: 70px;
-}
+  font-size: 70px; }
 
-/* line 235, ../scss/style.scss */
 #title {
   font-size: 70px;
-  color: white;
-}
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
