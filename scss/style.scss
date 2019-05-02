@@ -3,19 +3,19 @@
 }
 body
 {
-min-height: 800px;
+  min-height: 800px;
 }
 .scoreNav
 {
-    padding-left:14%;
+  padding-left:14%;
 }
 .quizWahl
 {
-    background-color:white;
+  background-color:white;
 }
 .quizWahl:hover
 {
-    background-color:gainsboro;
+  background-color:gainsboro;
 }
 .inputArea
 {
@@ -32,9 +32,9 @@ min-height: 800px;
 {
   margin-top: 8%;
   height:auto;
-    width:auto;
+  width:auto;
   margin-left: 30%;
-    margin-right: 30%;
+  margin-right: 30%;
   display:block;
 
 }
@@ -72,24 +72,8 @@ min-height: 800px;
   text-align: center;
   color: white;
   margin-left: 2px;
-  }
 
-.btnSizetra {
-  width: 49.6%;
-  height: 120px;
-  border: black solid 3px;
-  background-color: #007bff;
-  position: center;
-  font-size: 10mm;
-  text-align: center;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  marginleft: 10px;
 }
-
-
 
 .QuestionSqaure
 {
@@ -101,8 +85,8 @@ min-height: 800px;
 }
 .btnCont
 {
-display:block;
-margin-bottom: 4px;
+  display:block;
+  margin-bottom: 4px;
 }
 .timer {
   display: block;
@@ -227,24 +211,17 @@ xt-score {
 #FertigPunkte {
 
   color:red;
-  text-align: center;
-  font-size: 30px;
+
 }
 
 #FertigZeit {
   color: greenyellow;
-  text-align: center;
-  font-size: 30px;
 }
 #Antwortszeit{
   color: #1c7430;
-  text-align: center;
-  font-size: 30px;
 }
 #Punkte {
   color: #007bff;
-  text-align: center;
-  font-size: 30px;
 }
 
 .loginbody {
@@ -259,7 +236,7 @@ xt-score {
 
 .namelogin {
   color : white;
- text-align: center;
+  text-align: center;
   font-size: 80px;
   position: fixed;
   margin-left: 40%;
@@ -267,18 +244,8 @@ xt-score {
 }
 
 #title {
-  font-size: 50px;
+  font-size: 70px;
   color: white;
-<<<<<<< HEAD
-  text-align: center;
-}
-
-  #gotoFrage {
-    background-color: #007bff;
-    margin-top: 40px;
-    text-align: center;
-  }
-=======
 }
 
 .row {
@@ -291,11 +258,4 @@ xt-score {
   position: fixed; /*da sonst bei Anmeldung sich der Btn bewegt hat */
 }
 
-
-
-
-
-
-
->>>>>>> dcad63d2fdb57d593155fb4bde63f7028a6eddba
 

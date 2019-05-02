@@ -13,7 +13,7 @@ echo $this->header;
 <h2 id="Punkte"> </h2>
 
 
-<btn id="gotoFrage" class="btn btnSizetra "> Willst du zur nächsten Frage?</btn>
+<btn id="gotoFrage" class="btn btnSize "> Willst du zur nächsten Frage?</btn>
 
 
 </div>
