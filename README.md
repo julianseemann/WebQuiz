@@ -13,6 +13,25 @@
             Für die Tabellen in WebQuiz verwendet die Abfragen im Ordner Databasedump... falls ein Error kommt, führt sie alle einzeln           aus 
             
             LG Adam
+# Einstellung von Ports:
+öffnet C:/Apache/Apache/conf/httpd.conf 
+sucht nach "Listen"
+es sollte Listen *:80 drinstehen
+falls nicht, löscht alle anderen Einträge und schreibts das ein
+Erlaubt port 80 im Firewall
+# Lokation vom Server
+das Verzeichnis WebQuiz muss in C:\xampp\htdocs liegen.
+# Zugriff von einem Anderen Device
+Falls ihr vom Handy oder so zugreifen wollt:
+die Addresse für euer Server ist:
+<ComputerName> bezeichnet den Namen eures Rechners... keine ahnung zum Beispiel Sandro_Hurensohn_PC
+http://<ComputerName>/WebQuiz
+also mein Computer hab ich zum beispiel bacock genant. baCOCK ba.......COOOOOOOCK
+demnach ist die Addresse:
+http://bacock/WebQuiz 
+für mich.
+und bei Sandro Hurensohn:
+http://Sandro_Hurensohn_PC/WebQuiz
 # baseproject
 
 Dieses Repository können Sie als Studenten der FH Kufstein des Kurses Web Development gerne als Basis für Ihre Projektarbeit nehmen.

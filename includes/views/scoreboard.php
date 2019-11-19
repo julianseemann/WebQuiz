@@ -8,7 +8,7 @@ echo $this->header;
 <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
   <h1 class="navbar-brand">WebQuiz</h1>
   <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" >
           <li class="nav-item">
             <a class="nav-link" href="quizlist">Alle Quizes</a>
           </li>
@@ -25,7 +25,7 @@ echo $this->header;
 <body class="scorebordbody">
 <h1 class="text-centerscoreboard">Scoreboard</h1>
 <div class="text-centerscoreresult navbar-expand-lg navbar-light text-center">
-    <ul class="navbar-nav scoreNav">
+    <ul class="navbar-nav scoreNav" style="position:center;">
       <li class="nav-item ">
             <a class="nav-link selector" href="#" id="quiz1">Sport</a>
           </li>
