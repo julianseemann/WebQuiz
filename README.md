@@ -17,7 +17,7 @@
 öffnet C:/Apache/Apache/conf/httpd.conf 
 sucht nach "Listen"
 es sollte Listen *:80 drinstehen
-falls nicht, löscht alle anderen Einträge und schreibts das ein
+falls nicht, löscht alle anderen Einträge, die mit Listen anfangen und schreibts das ein.
 
 Erlaubt port 80 im Firewall
 # Lokation vom Server
