@@ -18,6 +18,7 @@
 sucht nach "Listen"
 es sollte Listen *:80 drinstehen
 falls nicht, löscht alle anderen Einträge und schreibts das ein
+
 Erlaubt port 80 im Firewall
 # Lokation vom Server
 das Verzeichnis WebQuiz muss in C:\xampp\htdocs liegen.
