@@ -23,11 +23,10 @@ Erlaubt port 80 im Firewall
 das Verzeichnis WebQuiz muss in C:\xampp\htdocs liegen.
 # Zugriff von einem Anderen Device
 Falls ihr vom Handy oder so zugreifen wollt:
-die Addresse für euer Server ist:
+die Addresse für euer Server ist: http://\<ComputerName\>/WebQuiz
 
 \<ComputerName\> bezeichnet den Namen eures Rechners... keine ahnung zum Beispiel Sandro_Hurensohn_PC
 
-http://\<ComputerName\>/WebQuiz
 also mein Computer hab ich zum beispiel bacock genant. baCOCK ba.......COOOOOOOCK
 
 demnach ist die Addresse:
